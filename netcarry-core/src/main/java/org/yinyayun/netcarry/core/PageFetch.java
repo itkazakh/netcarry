@@ -6,6 +6,7 @@ package org.yinyayun.netcarry.core;
 
 import java.util.HashSet;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -24,28 +25,36 @@ import org.yinyayun.netcarry.core.config.AgentFactory;
  */
 public class PageFetch<T> {
     public final Logger logger = LoggerFactory.getLogger(PageFetch.class);
-
     /**
      * 已经抓取的URL
      */
-    private volatile Set<String> fetchedUrls = new HashSet<String>();
+    private Set<String> fetchedUrls = new HashSet<String>();
     private AgentFactory agentFactory;
     private ExecutorService executorService;
     private PreURLFetch preFetch;
     private FetchParser<T> parser;
     private int timeOut = 3000;
+    private Map<String, String> data;
+    private Map<String, String> cookie;
 
     public PageFetch(int fetchThradNumber, PreURLFetch preFetch, FetchParser<T> parser) {
-        this(fetchThradNumber, 3000, preFetch, parser, new AgentFactory());
+        this(fetchThradNumber, 3000, preFetch, parser, new AgentFactory(), null, null);
+    }
+
+    public PageFetch(int fetchThradNumber, PreURLFetch preFetch, FetchParser<T> parser, Map<String, String> data,
+            Map<String, String> cookie) {
+        this(fetchThradNumber, 3000, preFetch, parser, new AgentFactory(), data, cookie);
     }
 
     public PageFetch(int fetchThradNumber, int timeOut, PreURLFetch preFetch, FetchParser<T> parser,
-            AgentFactory agentFactory) {
+            AgentFactory agentFactory, Map<String, String> data, Map<String, String> cookie) {
         this.parser = parser;
         this.timeOut = timeOut;
         this.preFetch = preFetch;
         this.agentFactory = agentFactory;
         this.executorService = Executors.newFixedThreadPool(fetchThradNumber);
+        this.data = data;
+        this.cookie = cookie;
     }
 
     public void startFetch(List<String> urls) {
@@ -93,5 +102,12 @@ public class PageFetch<T> {
             conn.userAgent(agent);
         }
         conn.timeout(timeOut);
+        //
+        if (data != null && data.size() > 0) {
+            conn.data(data);
+        }
+        if (cookie != null) {
+            cookie.forEach((k, v) -> conn.cookie(k, v));
+        }
     }
 }

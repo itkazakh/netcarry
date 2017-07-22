@@ -5,7 +5,9 @@
 package org.yinyayun.netcarry.biz.youku;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -26,7 +28,11 @@ public class YoukuFetchMain {
     public static void main(String[] args) {
         FetchCollector<String> collector = new FetchCollector<String>(1000);
         FetchParser<String> parser = new YoukuPageParser(collector);
-
+        //
+        Map<String, String> data = new HashMap<String, String>();
+        Map<String, String> cookie = new HashMap<String, String>();
+        cookie.put("iku_skin", "java");
+        //
         PreURLFetch preURLFetch = (x, y) -> {
             Elements elements = y.getElementsByClass("current");
             Elements href = elements.get(0).getElementsByTag("a");
@@ -34,7 +40,7 @@ public class YoukuFetchMain {
             int pos = x.lastIndexOf("?");
             return x.substring(0, pos).concat("/").concat(preUrl).concat(x.substring(pos));
         };
-        PageFetch<String> pageFetch = new PageFetch<String>(1, preURLFetch, parser);
+        PageFetch<String> pageFetch = new PageFetch<String>(1, preURLFetch, parser, data, cookie);
         pageFetch.startFetch(urls);
     }
 }
