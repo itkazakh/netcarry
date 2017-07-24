@@ -1,7 +1,6 @@
 /**
- * Copyright (c) 2017, yayunyin@126.com All Rights Reserved
+ * Copyright (c) 2016, yayunyin@126.com All Rights Reserved
  */
-
 package org.yinyayun.netcarry.core.config;
 
 import java.io.BufferedReader;
@@ -13,19 +12,19 @@ import java.util.List;
 import org.yinyayun.netcarry.core.util.CircularCounter;
 
 /**
- * AgentFactory agent工厂
- * 
+ * AgentFactory.java
+ *
  * @author yinyayun
  */
-public class AgentFactory {
+public class DefaultAgentFactory extends AgentFactoryA {
     private CircularCounter counter;
     private List<String> agents = new ArrayList<String>();
 
-    public AgentFactory() {
+    public DefaultAgentFactory() {
         InputStream inputStream = null;
         BufferedReader reader = null;
         try {
-            inputStream = AgentFactory.class.getClassLoader().getResourceAsStream("user-agent.txt");
+            inputStream = AgentFactoryA.class.getClassLoader().getResourceAsStream("user-agent.txt");
             reader = new BufferedReader(new InputStreamReader(inputStream, "utf-8"));
             String line = null;
             while ((line = reader.readLine()) != null) {
@@ -40,6 +39,7 @@ public class AgentFactory {
         }
     }
 
+    @Override
     public String takeAgent() {
         return agents.get(counter.count());
     }
