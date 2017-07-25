@@ -44,6 +44,7 @@ public class PageFetch<T> implements Closeable {
     public PageFetch(FetchParser<T> parser, NextPageParserA nextPageParser, NetCarryConfig config) {
         this.config = config;
         this.parser = parser;
+        this.nextPageParser = nextPageParser;
         this.tobeCarrayURLQueue = new LinkedBlockingQueue<String>(config.getTobeCarryQueueSize());
         this.executor = new ThreadPoolExecutor(config.getFetchThreadNumber(), config.getFetchThreadNumber() * 2, 0L,
                 TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());

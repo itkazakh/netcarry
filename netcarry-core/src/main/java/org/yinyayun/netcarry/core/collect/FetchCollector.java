@@ -51,7 +51,6 @@ public class FetchCollector<T> {
 
     public void add(T t) {
         try {
-            logger.info("add to queue...");
             queue.put(t);
         }
         catch (InterruptedException e) {
