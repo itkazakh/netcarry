@@ -15,6 +15,7 @@ import org.yinyayun.netcarry.core.config.ProxyFactoryA.ProxyStruct;
  */
 public class ConnectionConfig {
     private int timeOut = 3000;
+    private int maxBodySizeBytes = 1024 * 1024 * 5;
     private ProxyFactoryA proxy;
     private AgentFactoryA agent;
     private Map<String, String> headers = new HashMap<String, String>();
@@ -22,8 +23,6 @@ public class ConnectionConfig {
     private Map<String, String> cookies = new HashMap<String, String>();
 
     public ConnectionConfig() {
-        headers.put("Accept", "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8");
-        headers.put("Accept-Encoding", "gzip, deflate");
     }
 
     public void setAgentFactory(AgentFactoryA agent) {
@@ -80,6 +79,14 @@ public class ConnectionConfig {
 
     public void setHeaders(Map<String, String> headers) {
         this.headers = headers;
+    }
+
+    public int getMaxBodySizeBytes() {
+        return maxBodySizeBytes;
+    }
+
+    public void setMaxBodySizeBytes(int maxBodySizeBytes) {
+        this.maxBodySizeBytes = maxBodySizeBytes;
     }
 
 }

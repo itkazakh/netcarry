@@ -4,6 +4,7 @@
 
 package org.yinyayun.netcarry.biz.youku;
 
+import java.io.IOException;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -11,8 +12,7 @@ import java.util.Map;
 
 import org.yinyayun.netcarry.core.FetchCollector;
 import org.yinyayun.netcarry.core.FetchParser;
-import org.yinyayun.netcarry.core.PageFetchA;
-import org.yinyayun.netcarry.core.PageFetchByJsoup;
+import org.yinyayun.netcarry.core.PageFetch;
 import org.yinyayun.netcarry.core.config.ConnectionConfig;
 import org.yinyayun.netcarry.core.config.DefaultAgentFactory;
 
@@ -24,19 +24,23 @@ import org.yinyayun.netcarry.core.config.DefaultAgentFactory;
 public class YoukuFetchMain {
     public static List<String> urls = Arrays.asList(new String[]{
             "http://www.soku.com/search_video/q_%E6%89%8B%E6%9C%BA%E7%BB%B4%E4%BF%AE_orderby_1_limitdate_0?spm=a2h0k.8191407.0.0&site=14&page=1"});
+    public static String mainUrl = "http://www.soku.com";
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         YoukuFetchMain main = new YoukuFetchMain();
         FetchCollector<String> collector = new FetchCollector<String>(1000);
         FetchParser<String> parser = new YoukuPageParser(collector);
-        //
-        Map<String, String> cookie = main.buildCookie();
         ConnectionConfig config = new ConnectionConfig();
-        config.setCookies(cookie);
+        config.setCookies(main.buildCookie());
         config.setAgentFactory(new DefaultAgentFactory());
         config.setProxyFactory(new ProxyFactory());
-        PageFetchA<String> pageFetch = new PageFetchByJsoup<String>(1, parser, config);
-        pageFetch.startFetch(urls);
+        // config.setTimeOut(3000);
+        // config.setMaxBodySizeBytes(1024 * 1024 * 3);
+        //
+        try (PageFetch<String> pageFetch = new PageFetch<String>(1, 100, parser, new YoukuNextPage(100, mainUrl),
+                config)) {
+            pageFetch.startFetch(urls);
+        }
     }
 
     public Map<String, String> buildCookie() {
