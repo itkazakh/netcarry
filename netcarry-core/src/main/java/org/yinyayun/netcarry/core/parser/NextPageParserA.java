@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2016, yayunyin@126.com All Rights Reserved
  */
-package org.yinyayun.netcarry.core;
+package org.yinyayun.netcarry.core.parser;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

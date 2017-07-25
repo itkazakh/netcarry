@@ -6,62 +6,40 @@ package org.yinyayun.netcarry.biz.youku;
 
 import java.io.IOException;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import org.yinyayun.netcarry.core.FetchCollector;
-import org.yinyayun.netcarry.core.FetchParser;
-import org.yinyayun.netcarry.core.PageFetch;
-import org.yinyayun.netcarry.core.config.ConnectionConfig;
-import org.yinyayun.netcarry.core.config.DefaultAgentFactory;
+import org.yinyayun.netcarry.core.PageFetchExecutor;
+import org.yinyayun.netcarry.core.collect.FetchCollector;
+import org.yinyayun.netcarry.core.config.NetCarryConfig;
+import org.yinyayun.netcarry.core.parser.FetchParser;
+import org.yinyayun.netcarry.core.parser.NextPageParserA;
 
 /**
- * YoukuFetchMain
- *
+ * YoukuFetchMain 优酷中关于手机维修页面抓取
+ * 
  * @author yinyayun
  */
 public class YoukuFetchMain {
-    public static List<String> urls = Arrays.asList(new String[]{
-            "http://www.soku.com/search_video/q_%E6%89%8B%E6%9C%BA%E7%BB%B4%E4%BF%AE_orderby_1_limitdate_0?spm=a2h0k.8191407.0.0&site=14&page=1"});
-    public static String mainUrl = "http://www.soku.com";
 
     public static void main(String[] args) throws IOException {
-        YoukuFetchMain main = new YoukuFetchMain();
-        FetchCollector<String> collector = new FetchCollector<String>(1000);
-        FetchParser<String> parser = new YoukuPageParser(collector);
-        ConnectionConfig config = new ConnectionConfig();
-        config.setCookies(main.buildCookie());
-        config.setAgentFactory(new DefaultAgentFactory());
-        config.setProxyFactory(new ProxyFactory());
-        // config.setTimeOut(3000);
-        // config.setMaxBodySizeBytes(1024 * 1024 * 3);
+        String savePath = "C:/Users/yinyayun/Desktop/自己维修/zjwx.txt";
+        String logPath = "C:/Users/yinyayun/Desktop/自己维修/log";
+        String mainUrl = "http://www.soku.com";
+        int deepPerPage = 100;
+        List<String> carryurls = initCarryUrls();
         //
-        try (PageFetch<String> pageFetch = new PageFetch<String>(1, 100, parser, new YoukuNextPage(100, mainUrl),
-                config)) {
-            pageFetch.startFetch(urls);
-        }
+        FetchCollector<Map<String, String>> collector = new FetchCollector<Map<String, String>>(1000, savePath);
+        FetchParser<Map<String, String>> parser = new YoukuPageParser(collector);
+        NextPageParserA nextPageParser = new YoukuNextPage(deepPerPage, mainUrl);
+        NetCarryConfig config = new NetCarryConfig();
+        new PageFetchExecutor<Map<String, String>>().executor(logPath, carryurls, config, parser, nextPageParser,
+                collector);
+
     }
 
-    public Map<String, String> buildCookie() {
-        Map<String, String> cookie = new HashMap<String, String>();
-        cookie.put("JSESSIONID", "B5B781AAD1E7A35636F1DB3BE087E4D7");
-        cookie.put("_log_check", "1");
-        cookie.put("SK_UUID", "[{\"q\":\"%E6%89%8B%E6%9C%BA%E7%BB%B4%E4%BF%AE\",\"p\":\"shoujiweixiu\"}]");
-        cookie.put("__ayft", "1500884434711");
-        cookie.put("__aysid", "1500884434711gO5");
-
-        cookie.put("__arpvid", "1500884434711C0ymPq-1500884434720");
-        cookie.put("__ayscnt", "1");
-        cookie.put("__aypstp", "1");
-        cookie.put("__ayspstp", "1");
-
-        cookie.put("SOKUSESSID", "15008844343650aV");
-        cookie.put("cna", "zDj8EZpkqF8CATrwGsvnGWNV");
-
-        cookie.put("_uab_collina", "150088443555979884260435");
-        cookie.put("_umdata",
-                "6AF5B463492A874DC6BFC30758FD7617FB649D34539F1D14DF1C07F7DE7081686AD6ACFF2D01FF50CD43AD3E795C914CB6E8E238CE624EB089B05ABB56BA30E0");
-        return cookie;
+    public static List<String> initCarryUrls() {
+        return Arrays.asList(new String[]{
+                "http://www.soku.com/search_video/q_%E6%89%8B%E6%9C%BA%E7%BB%B4%E4%BF%AE_orderby_1_limitdate_0?spm=a2h0k.8191407.0.0&site=14&page=1"});
     }
 }

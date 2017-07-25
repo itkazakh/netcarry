@@ -9,21 +9,24 @@ import java.util.Map;
 import org.yinyayun.netcarry.core.config.ProxyFactoryA.ProxyStruct;
 
 /**
- * ConnectionConfig.java
- *
+ * ConnectionConfig.java 抓取程序配置、以及HTTP连接配置
+ * 
  * @author yinyayun
  */
-public class ConnectionConfig {
+public class NetCarryConfig {
+    // 默认抓取的线程数
+    private int fetchThreadNumber = 1;
+    // 每次抓完后的休眠时间
+    private int sleepTime = 100;
+    // 待抓取队列大小设置
+    private int tobeCarryQueueSize = 1000;
     private int timeOut = 3000;
-    private int maxBodySizeBytes = 1024 * 1024 * 5;
+    private int maxBodySizeBytes = 1024 * 1024 * 3;
     private ProxyFactoryA proxy;
     private AgentFactoryA agent;
     private Map<String, String> headers = new HashMap<String, String>();
     private Map<String, String> datas = new HashMap<String, String>();
     private Map<String, String> cookies = new HashMap<String, String>();
-
-    public ConnectionConfig() {
-    }
 
     public void setAgentFactory(AgentFactoryA agent) {
         this.agent = agent;
@@ -87,6 +90,30 @@ public class ConnectionConfig {
 
     public void setMaxBodySizeBytes(int maxBodySizeBytes) {
         this.maxBodySizeBytes = maxBodySizeBytes;
+    }
+
+    public int getFetchThreadNumber() {
+        return fetchThreadNumber;
+    }
+
+    public void setFetchThreadNumber(int fetchThreadNumber) {
+        this.fetchThreadNumber = fetchThreadNumber;
+    }
+
+    public int getSleepTime() {
+        return sleepTime;
+    }
+
+    public void setSleepTime(int sleepTime) {
+        this.sleepTime = sleepTime;
+    }
+
+    public int getTobeCarryQueueSize() {
+        return tobeCarryQueueSize;
+    }
+
+    public void setTobeCarryQueueSize(int tobeCarryQueueSize) {
+        this.tobeCarryQueueSize = tobeCarryQueueSize;
     }
 
 }
