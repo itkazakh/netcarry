@@ -120,7 +120,7 @@ public class PageFetch<T> implements Closeable {
                 // Document document = Jsoup.parse(new URL(url), 3000);
                 parser.fetchPaser(url, document);
                 // 解析下一页
-                if (nextPageParser == null) {
+                if (nextPageParser == null || !nextPageParser.needParserThisPage(url)) {
                     return;
                 }
                 List<String> nextPages = nextPageParser.nextPage(document);

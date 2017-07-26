@@ -45,4 +45,9 @@ public class YoukuNextPage extends NextPageParserA {
             System.out.println(nextPageUrl);
         }
     }
+
+    @Override
+    public boolean needParserThisPage(String url) {
+        return true;
+    }
 }

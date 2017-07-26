@@ -22,6 +22,14 @@ public abstract class NextPageParserA {
     }
 
     /**
+     * 给定url，可由具体的实现类决定是否要从该url中获取下一页
+     * 
+     * @param url
+     * @return
+     */
+    public abstract boolean needParserThisPage(String url);
+
+    /**
      * 下一页获取
      * 
      * @param document
