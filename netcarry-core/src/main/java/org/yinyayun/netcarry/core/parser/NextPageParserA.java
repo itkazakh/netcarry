@@ -3,6 +3,7 @@
  */
 package org.yinyayun.netcarry.core.parser;
 
+import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.jsoup.nodes.Document;
@@ -26,7 +27,7 @@ public abstract class NextPageParserA {
      * @param document
      * @return
      */
-    public String nextPage(Document document) {
+    public List<String> nextPage(Document document) {
         int count = counter.incrementAndGet();
         if (count > deep) {
             return null;
@@ -36,5 +37,5 @@ public abstract class NextPageParserA {
         }
     }
 
-    protected abstract String parser(Document document);
+    protected abstract List<String> parser(Document document);
 }

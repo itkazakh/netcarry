@@ -123,9 +123,9 @@ public class PageFetch<T> implements Closeable {
                 if (nextPageParser == null) {
                     return;
                 }
-                String nextPage = nextPageParser.nextPage(document);
-                if (nextPage != null && nextPage.length() > 0) {
-                    addURL(nextPage);
+                List<String> nextPages = nextPageParser.nextPage(document);
+                if (nextPages != null && nextPages.size() > 0) {
+                    nextPages.forEach(x -> addURL(x));
                 }
             }
             catch (Exception e) {

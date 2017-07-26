@@ -5,6 +5,8 @@ package org.yinyayun.netcarry.biz.youku;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.jsoup.Jsoup;
@@ -26,11 +28,11 @@ public class YoukuNextPage extends NextPageParserA {
     }
 
     @Override
-    protected String parser(Document document) {
+    protected List<String> parser(Document document) {
         Elements elements = document.getElementsByClass("next");
         if (elements.size() > 0) {
             String nextPageUrl = elements.get(0).getElementsByTag("a").get(0).attr("href");
-            return mainurl.concat(nextPageUrl);
+            return Arrays.asList(new String[]{mainurl.concat(nextPageUrl)});
         }
         return null;
     }
