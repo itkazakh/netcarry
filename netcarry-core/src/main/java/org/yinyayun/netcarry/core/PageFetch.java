@@ -118,7 +118,8 @@ public class PageFetch<T> implements Closeable {
                 Connection conn = createConnection(url);
                 Document document = conn.get();
                 // Document document = Jsoup.parse(new URL(url), 3000);
-                parser.fetchPaser(url, document);
+                if (parser.needParser(url))
+                    parser.fetchPaser(url, document);
                 // 解析下一页
                 if (nextPageParser == null || !nextPageParser.needParserThisPage(url)) {
                     return;

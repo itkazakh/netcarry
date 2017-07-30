@@ -28,6 +28,8 @@ public abstract class FetchParser<T> {
         }
     }
 
+    public abstract boolean needParser(String url);
+
     /**
      * 页面解析
      * 

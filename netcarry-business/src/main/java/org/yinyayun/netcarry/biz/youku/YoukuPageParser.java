@@ -67,4 +67,9 @@ public class YoukuPageParser extends FetchParser<Map<String, String>> {
             values.add(map);
         }
     }
+
+    @Override
+    public boolean needParser(String url) {
+        return true;
+    }
 }
