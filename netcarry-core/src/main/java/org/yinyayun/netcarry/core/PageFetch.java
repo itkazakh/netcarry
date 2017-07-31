@@ -123,7 +123,7 @@ public class PageFetch<T> implements Closeable {
                 if (parser.needParser(url))
                     parser.fetchPaser(pageMetas, document);
                 // 解析下一页
-                if (nextPageParsers != null) {
+                if (nextPageParsers == null) {
                     continue;
                 }
                 for (NextPageParserA nextPageParser : nextPageParsers) {

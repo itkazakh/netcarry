@@ -31,22 +31,25 @@ public class IFixitGuideUrlParser extends NextPageParserA {
     // https://zh.ifixit.com/Device/MacBook_Pro_13%22_Unibody_Mid_2009
     @Override
     protected List<PageMeta> parser(String currentUrl, Document document) {
-        if (document.getElementsByClass("categoryListCell").size() > 0) {
-            return null;
-        }
         List<PageMeta> urls = new ArrayList<PageMeta>();
-        Elements guides = document.getElementsByClass("blurbListTitle");
-        for (Element element : guides) {
-            Elements hrefs = element.getElementsByTag("a");
-            for (Element href : hrefs) {
-                String guide = href.attr("href");
-                PageMeta pageMeta = new PageMeta(prefixUrl.concat(guide));
-                Elements img = href.getElementsByTag("img");
-                String imgUrl = img.get(0).attr("src");
-                String title = img.get(0).attr("alt");
-                pageMeta.addMeta("img", imgUrl);
-                pageMeta.addMeta("category", title);
-                urls.add(pageMeta);
+        Element topContent = document.getElementById("topContent");
+        if (topContent != null) {
+            Elements blurbListWides = topContent.getElementsByClass("blurbListWide");
+            if (blurbListWides.size() > 0) {
+                Elements cells = blurbListWides.get(0).getElementsByClass("cell");
+                for (Element element : cells) {
+                    Elements hrefs = element.getElementsByTag("a");
+                    for (Element href : hrefs) {
+                        String guide = href.attr("href");
+                        PageMeta pageMeta = new PageMeta(prefixUrl.concat(guide));
+                        Elements img = href.getElementsByTag("img");
+                        String imgUrl = img.get(0).attr("src");
+                        String title = img.get(0).attr("alt");
+                        pageMeta.addMeta("img", imgUrl);
+                        pageMeta.addMeta("category", title);
+                        urls.add(pageMeta);
+                    }
+                }
             }
         }
         return urls;

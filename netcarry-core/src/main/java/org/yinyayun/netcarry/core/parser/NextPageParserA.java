@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.jsoup.nodes.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.yinyayun.netcarry.core.dao.PageMeta;
 import org.yinyayun.netcarry.core.dao.PageMetas;
 
@@ -17,6 +19,7 @@ import org.yinyayun.netcarry.core.dao.PageMetas;
  * @author yinyayun
  */
 public abstract class NextPageParserA {
+    public final static Logger logger = LoggerFactory.getLogger(NextPageParserA.class);
     private final int deep;
     private AtomicInteger counter = new AtomicInteger(0);
 
@@ -46,13 +49,19 @@ public abstract class NextPageParserA {
         else {
             List<PageMetas> pages = new ArrayList<PageMetas>();
             List<PageMeta> nextPages = parser(metas.getCurrentUrl(), document);
-            for (PageMeta nexPage : nextPages) {
-                PageMetas pageMetas = metas.copy();
-                String url = nexPage.getUrl();
-                pageMetas.addLastUrl();
-                pageMetas.setCurrentUrl(url);
-                nexPage.getMeta().forEach((k, v) -> pageMetas.addMeta(k, v));
-                pages.add(pageMetas);
+            try {
+                for (PageMeta nexPage : nextPages) {
+                    PageMetas pageMetas = metas.copy();
+                    String url = nexPage.getUrl();
+                    pageMetas.addLastUrl();
+                    pageMetas.setCurrentUrl(url);
+                    nexPage.getMeta().forEach((k, v) -> pageMetas.addMeta(k, v));
+                    pages.add(pageMetas);
+                }
+
+            }
+            catch (Exception e) {
+                logger.error(String.format("fetch page:%s error", metas.getCurrentUrl()), e);
             }
             return pages;
         }
