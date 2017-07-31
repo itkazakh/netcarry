@@ -31,7 +31,7 @@ public class YoukuFetchMain {
         //
         FetchCollector<Map<String, String>> collector = new FetchCollector<Map<String, String>>(2000, savePath);
         FetchParser<Map<String, String>> parser = new YoukuPageParser(collector);
-        NextPageParserA nextPageParser = new YoukuNextPage(deepPerPage, mainUrl);
+        NextPageParserA[] nextPageParser = {new YoukuNextPage(deepPerPage, mainUrl)};
         NetCarryConfig config = new NetCarryConfig();
         config.setFetchThreadNumber(carryurls.size());
         config.setSleepTime(1000);

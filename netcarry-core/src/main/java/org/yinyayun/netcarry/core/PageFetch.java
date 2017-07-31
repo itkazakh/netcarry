@@ -20,6 +20,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.yinyayun.netcarry.core.config.NetCarryConfig;
 import org.yinyayun.netcarry.core.config.ProxyFactoryA.ProxyStruct;
+import org.yinyayun.netcarry.core.dao.PageMetas;
 import org.yinyayun.netcarry.core.parser.FetchParser;
 import org.yinyayun.netcarry.core.parser.NextPageParserA;
 
@@ -31,21 +32,21 @@ import org.yinyayun.netcarry.core.parser.NextPageParserA;
 public class PageFetch<T> implements Closeable {
     public final Logger logger = LoggerFactory.getLogger(PageFetch.class);
     // 待收抓取url队列
-    private LinkedBlockingQueue<String> tobeCarrayURLQueue;
+    private LinkedBlockingQueue<PageMetas> tobeCarrayURLQueue;
     /**
      * 已经抓取的URL
      */
     private Set<String> fetchedUrls = new HashSet<String>();
     private ThreadPoolExecutor executor;
-    private NextPageParserA nextPageParser;
+    private NextPageParserA[] nextPageParsers;
     private FetchParser<T> parser;
     private NetCarryConfig config;
 
-    public PageFetch(FetchParser<T> parser, NextPageParserA nextPageParser, NetCarryConfig config) {
+    public PageFetch(FetchParser<T> parser, NextPageParserA[] nextPageParsers, NetCarryConfig config) {
         this.config = config;
         this.parser = parser;
-        this.nextPageParser = nextPageParser;
-        this.tobeCarrayURLQueue = new LinkedBlockingQueue<String>(config.getTobeCarryQueueSize());
+        this.nextPageParsers = nextPageParsers;
+        this.tobeCarrayURLQueue = new LinkedBlockingQueue<PageMetas>(config.getTobeCarryQueueSize());
         this.executor = new ThreadPoolExecutor(config.getFetchThreadNumber(), config.getFetchThreadNumber() * 2, 0L,
                 TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
         for (int i = 0; i < config.getFetchThreadNumber(); i++) {
@@ -66,7 +67,7 @@ public class PageFetch<T> implements Closeable {
      */
     public void startFetch(List<String> urls) {
         for (String url : urls) {
-            addURL(url);
+            addURL(new PageMetas(url, url));
         }
     }
 
@@ -76,12 +77,12 @@ public class PageFetch<T> implements Closeable {
      * @param url
      * @throws InterruptedException
      */
-    private void addURL(String url) {
+    private void addURL(PageMetas paMetas) {
         try {
-            if (!fetchedUrls.contains(url)) {
-                logger.info("添加至待抓取队列:{}", url);
-                tobeCarrayURLQueue.put(url);
-                fetchedUrls.add(url);
+            if (!fetchedUrls.contains(paMetas.getCurrentUrl())) {
+                logger.info("添加至待抓取队列:{}", paMetas.getCurrentUrl());
+                tobeCarrayURLQueue.put(paMetas);
+                fetchedUrls.add(paMetas.getCurrentUrl());
             }
         }
         catch (Exception e) {
@@ -94,12 +95,12 @@ public class PageFetch<T> implements Closeable {
      * 
      * @return
      */
-    private String takeURL() {
+    private PageMetas takeURL() {
         try {
             sleep(config.getSleepTime());
-            String url = tobeCarrayURLQueue.take();
-            logger.info("从待抓取队列获取:{}", url);
-            return url;
+            PageMetas page = tobeCarrayURLQueue.take();
+            logger.info("从待抓取队列获取:{}", page.getCurrentUrl());
+            return page;
         }
         catch (Exception e) {
             throw new RuntimeException(e.getMessage(), e);
@@ -114,19 +115,24 @@ public class PageFetch<T> implements Closeable {
         // 防止重复抓取
         while (true) {
             try {
-                String url = takeURL();
+                PageMetas pageMetas = takeURL();
+                String url = pageMetas.getCurrentUrl();
                 Connection conn = createConnection(url);
                 Document document = conn.get();
                 // Document document = Jsoup.parse(new URL(url), 3000);
                 if (parser.needParser(url))
-                    parser.fetchPaser(url, document);
+                    parser.fetchPaser(pageMetas, document);
                 // 解析下一页
-                if (nextPageParser == null || !nextPageParser.needParserThisPage(url)) {
-                    return;
+                if (nextPageParsers != null) {
+                    continue;
                 }
-                List<String> nextPages = nextPageParser.nextPage(document);
-                if (nextPages != null && nextPages.size() > 0) {
-                    nextPages.forEach(x -> addURL(x));
+                for (NextPageParserA nextPageParser : nextPageParsers) {
+                    if (nextPageParser.needParserThisPage(url)) {
+                        List<PageMetas> nextPages = nextPageParser.nextPage(pageMetas, document);
+                        if (nextPages != null && nextPages.size() > 0) {
+                            nextPages.forEach(x -> addURL(x));
+                        }
+                    }
                 }
             }
             catch (Exception e) {

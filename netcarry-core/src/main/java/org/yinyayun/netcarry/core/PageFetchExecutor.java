@@ -23,9 +23,9 @@ import org.yinyayun.netcarry.core.parser.NextPageParserA;
 public class PageFetchExecutor<T> {
 
     public void executor(String logPath, List<String> carryUrls, NetCarryConfig config, FetchParser<T> fetchParser,
-            NextPageParserA nextPageParser, FetchCollector<T> collector) throws IOException {
+            NextPageParserA[] nextPageParsers, FetchCollector<T> collector) throws IOException {
         initLog4j(logPath);
-        try (PageFetch<T> pageFetch = new PageFetch<T>(fetchParser, nextPageParser, config)) {
+        try (PageFetch<T> pageFetch = new PageFetch<T>(fetchParser, nextPageParsers, config)) {
             pageFetch.startFetch(carryUrls);
         }
     }

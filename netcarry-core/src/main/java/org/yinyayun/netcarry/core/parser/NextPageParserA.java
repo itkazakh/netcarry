@@ -3,10 +3,13 @@
  */
 package org.yinyayun.netcarry.core.parser;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import org.jsoup.nodes.Document;
+import org.yinyayun.netcarry.core.dao.PageMeta;
+import org.yinyayun.netcarry.core.dao.PageMetas;
 
 /**
  * NextPageParserA.java 下一页解析
@@ -35,15 +38,25 @@ public abstract class NextPageParserA {
      * @param document
      * @return
      */
-    public List<String> nextPage(Document document) {
+    public List<PageMetas> nextPage(PageMetas metas, Document document) {
         int count = counter.incrementAndGet();
         if (count > deep) {
             return null;
         }
         else {
-            return parser(document);
+            List<PageMetas> pages = new ArrayList<PageMetas>();
+            List<PageMeta> nextPages = parser(metas.getCurrentUrl(), document);
+            for (PageMeta nexPage : nextPages) {
+                PageMetas pageMetas = metas.copy();
+                String url = nexPage.getUrl();
+                pageMetas.addLastUrl();
+                pageMetas.setCurrentUrl(url);
+                nexPage.getMeta().forEach((k, v) -> pageMetas.addMeta(k, v));
+                pages.add(pageMetas);
+            }
+            return pages;
         }
     }
 
-    protected abstract List<String> parser(Document document);
+    protected abstract List<PageMeta> parser(String url, Document document);
 }

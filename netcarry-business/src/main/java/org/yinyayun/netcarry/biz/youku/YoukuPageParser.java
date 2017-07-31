@@ -20,6 +20,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.yinyayun.netcarry.core.collect.FetchCollector;
+import org.yinyayun.netcarry.core.dao.PageMetas;
 import org.yinyayun.netcarry.core.parser.FetchParser;
 
 /**
@@ -35,7 +36,7 @@ public class YoukuPageParser extends FetchParser<Map<String, String>> {
     }
 
     @Override
-    public List<Map<String, String>> parser(String currentUrl, Document document) {
+    public List<Map<String, String>> parser(PageMetas metas, Document document) {
         List<Map<String, String>> values = new ArrayList<Map<String, String>>();
         Elements elements = document.getElementsByClass("v-link");
         for (Element element : elements) {

@@ -10,19 +10,19 @@ import java.util.List;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
+import org.yinyayun.netcarry.core.dao.PageMeta;
 import org.yinyayun.netcarry.core.parser.NextPageParserA;
 
 /**
- * IfixitNextPageParser
- *
+ * IfixitNextPageParser 解析https://zh.ifixit.com/Device/Phone、https://zh.ifixit.com/Device/iPhone等页面的子分类
+ * 
  * @author yinyayun
  */
-public class IfixitNextPageParser extends NextPageParserA {
-    private String prefixUrl;
+public class IFixitCategoryUrlParser extends NextPageParserA {
+    private String prefixUrl = "https://zh.ifixit.com";
 
-    public IfixitNextPageParser(int deep, String prefixUrl) {
+    public IFixitCategoryUrlParser(int deep) {
         super(deep);
-        this.prefixUrl = prefixUrl;
     }
 
     /**
@@ -36,14 +36,14 @@ public class IfixitNextPageParser extends NextPageParserA {
     // https://zh.ifixit.com/Device/Phone
 
     @Override
-    protected List<String> parser(Document document) {
-        List<String> urls = new ArrayList<String>();
+    protected List<PageMeta> parser(String url, Document document) {
+        List<PageMeta> pages = new ArrayList<PageMeta>();
         Elements elements = document.getElementsByClass("categoryListCell");
         for (Element category : elements) {
-            String url = category.getElementsByTag("a").get(0).attr("href");
-            urls.add(prefixUrl.concat(url));
+            String nextUrl = category.getElementsByTag("a").get(0).attr("href");
+            pages.add(new PageMeta(prefixUrl.concat(nextUrl)));
         }
-        return urls;
+        return pages;
     }
 
 }

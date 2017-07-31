@@ -12,6 +12,7 @@ import org.apache.commons.io.FileUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.select.Elements;
+import org.yinyayun.netcarry.core.dao.PageMeta;
 import org.yinyayun.netcarry.core.parser.NextPageParserA;
 
 /**
@@ -28,11 +29,11 @@ public class YoukuNextPage extends NextPageParserA {
     }
 
     @Override
-    protected List<String> parser(Document document) {
+    protected List<PageMeta> parser(String url, Document document) {
         Elements elements = document.getElementsByClass("next");
         if (elements.size() > 0) {
             String nextPageUrl = elements.get(0).getElementsByTag("a").get(0).attr("href");
-            return Arrays.asList(new String[]{mainurl.concat(nextPageUrl)});
+            return Arrays.asList(new PageMeta[]{new PageMeta(mainurl.concat(nextPageUrl))});
         }
         return null;
     }
