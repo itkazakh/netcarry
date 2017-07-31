@@ -27,8 +27,8 @@ public class PageMeta {
         return meta;
     }
 
-    public void addMeta(Map<String, String> meta) {
-        this.meta = meta;
+    public void addMeta(String key, String value) {
+        this.meta.put(key, value);
     }
 
 }

@@ -38,10 +38,17 @@ public class IFixitCategoryUrlParser extends NextPageParserA {
     @Override
     protected List<PageMeta> parser(String url, Document document) {
         List<PageMeta> pages = new ArrayList<PageMeta>();
-        Elements elements = document.getElementsByClass("categoryListCell");
+        Elements elements = document.getElementsByClass("subcategorySection");
         for (Element category : elements) {
-            String nextUrl = category.getElementsByTag("a").get(0).attr("href");
-            pages.add(new PageMeta(prefixUrl.concat(nextUrl)));
+            Elements href = category.getElementsByTag("a");
+            String nextUrl = href.get(0).attr("href");
+            PageMeta pageMeta = new PageMeta(prefixUrl.concat(nextUrl));
+            Element img = href.get(0).getElementsByTag("img").get(0);
+            String title = img.attr("alt");
+            String imgUrl = img.attr("src");
+            pageMeta.addMeta("category", title);
+            pageMeta.addMeta("img", imgUrl);
+            pages.add(pageMeta);
         }
         return pages;
     }
