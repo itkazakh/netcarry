@@ -34,9 +34,13 @@ public class IFixitGuideUrlParser extends NextPageParserA {
         List<PageMeta> urls = new ArrayList<PageMeta>();
         Element topContent = document.getElementById("topContent");
         if (topContent != null) {
+            Elements subcategorySections = topContent.getElementsByClass("subcategorySection");
+            if (subcategorySections.size() > 0) {
+                return urls;
+            }
             Elements blurbListWides = topContent.getElementsByClass("blurbListWide");
-            if (blurbListWides.size() > 0) {
-                Elements cells = blurbListWides.get(0).getElementsByClass("cell");
+            for (Element blurbListWide : blurbListWides) {
+                Elements cells = blurbListWide.getElementsByClass("cell");
                 for (Element element : cells) {
                     Elements hrefs = element.getElementsByTag("a");
                     for (Element href : hrefs) {
@@ -61,7 +65,7 @@ public class IFixitGuideUrlParser extends NextPageParserA {
     }
 
     public static void main(String[] args) throws IOException {
-        Document document = Jsoup.parse(FileUtils.readFileToString(new File("data/guide-url-example.txt")));
+        Document document = Jsoup.parse(FileUtils.readFileToString(new File("data/guide-url-example2.txt")));
         new IFixitGuideUrlParser(10).parser(null, document);
     }
 

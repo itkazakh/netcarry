@@ -64,7 +64,7 @@ public class IFixitCategoryUrlParser extends NextPageParserA {
     }
 
     public static void main(String[] args) throws IOException {
-        Document document = Jsoup.parse(FileUtils.readFileToString(new File("data/category-example2.txt")));
+        Document document = Jsoup.parse(FileUtils.readFileToString(new File("data/category-example4.txt")));
         new IFixitCategoryUrlParser(10).parser(null, document);
     }
 }

@@ -99,7 +99,7 @@ public class PageFetch<T> implements Closeable {
         try {
             sleep(config.getSleepTime());
             PageMetas page = tobeCarrayURLQueue.take();
-            logger.info("从待抓取队列获取:{}", page.getCurrentUrl());
+            logger.info("从待抓取队列获取:{},队列剩余:{}", page.getCurrentUrl(), tobeCarrayURLQueue.size());
             return page;
         }
         catch (Exception e) {

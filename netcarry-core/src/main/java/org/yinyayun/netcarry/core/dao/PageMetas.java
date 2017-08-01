@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Map.Entry;
 
 /**
  * PageMetas.java
@@ -55,7 +56,16 @@ public class PageMetas {
 
     public PageMetas copy() {
         PageMetas pageMetas = new PageMetas(parentUrl, currentUrl);
-        pageMetas.metas = metas;
+        // meta信息copy
+        for (Entry<String, List<String>> entry : metas.entrySet()) {
+            List<String> values = new ArrayList<String>();
+            for (String value : entry.getValue()) {
+                values.add(value);
+            }
+            pageMetas.metas.put(entry.getKey(), values);
+        }
+        // jump信息拷贝
+        jumpUrls.forEach(x -> pageMetas.jumpUrls.add(x));
         return pageMetas;
     }
 

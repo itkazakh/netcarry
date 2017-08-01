@@ -25,6 +25,7 @@ public class FetchCollector<T> {
     public FetchCollector(int capacity, String savePath) {
         this.queue = new LinkedBlockingQueue<>(capacity);
         File saveFile = new File(savePath);
+        // FileUtils.deleteQuietly(saveFile);
         Gson gson = new Gson();
         CollectorAction<T> action = (T x) -> {
             String line = null;

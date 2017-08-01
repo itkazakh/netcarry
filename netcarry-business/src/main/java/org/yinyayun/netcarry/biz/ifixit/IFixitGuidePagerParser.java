@@ -26,6 +26,12 @@ public class IFixitGuidePagerParser extends FetchParser<GuideContent> {
         super(collector);
     }
 
+    public static void main(String[] args) {
+        new IFixitGuidePagerParser(null)
+                .needParser("https://zh.ifixit.com/Guide/VuPoint+DC-ST210-VP+Battery+Door+Cover+Replacement/33726");
+
+    }
+
     @Override
     public boolean needParser(String url) {
         return url.startsWith("https://zh.ifixit.com/Guide") && !url.equals("https://zh.ifixit.com/Guide");
@@ -83,25 +89,27 @@ public class IFixitGuidePagerParser extends FetchParser<GuideContent> {
                 // 多图的情况，不含有img标签，而是多个div.data-src
                 Elements stepImages = stepContainers.get(i).getElementsByAttributeValue("class",
                         "column stepMedia step-main-media js-step-main-media stepImage");
-                Elements imgs = stepImages.get(0).getElementsByTag("img");
-                if (imgs.size() > 0) {
-                    for (Element img : imgs) {
-                        stepInfo.addImg(img.attr("src"));
+                if (stepImages.size() > 0) {
+                    Elements imgs = stepImages.get(0).getElementsByTag("img");
+                    if (imgs.size() > 0) {
+                        for (Element img : imgs) {
+                            stepInfo.addImg(img.attr("src"));
+                        }
                     }
-                }
-                else {
-                    Elements imgDivs = stepImages.get(0).getElementsByClass("div");
-                    for (Element imgDiv : imgDivs) {
-                        stepInfo.addImg(imgDiv.attr("data-src"));
+                    else {
+                        Elements imgDivs = stepImages.get(0).getElementsByClass("div");
+                        for (Element imgDiv : imgDivs) {
+                            stepInfo.addImg(imgDiv.attr("data-src"));
+                        }
                     }
+                    for (Element passage : passages) {
+                        stepInfo.addPassage(passage.text());
+                    }
+                    stepInfo.setpTiltle = stepValue;
+                    stepInfo.titleDes = titleDes;
+                    //
+                    guideContent.addStep(stepInfo);
                 }
-                for (Element passage : passages) {
-                    stepInfo.addPassage(passage.text());
-                }
-                stepInfo.setpTiltle = stepValue;
-                stepInfo.titleDes = titleDes;
-                //
-                guideContent.addStep(stepInfo);
             }
         }
     }

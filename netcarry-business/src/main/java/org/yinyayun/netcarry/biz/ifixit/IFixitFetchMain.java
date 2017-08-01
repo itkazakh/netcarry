@@ -5,7 +5,6 @@
 package org.yinyayun.netcarry.biz.ifixit;
 
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -22,19 +21,18 @@ import org.yinyayun.netcarry.core.parser.NextPageParserA;
  */
 public class IFixitFetchMain {
     public static void main(String[] args) throws IOException {
-        String savePath = "/Users/yinyayun/Desktop/sjwx/ifixit.txt";
-        String logPath = "/Users/yinyayun/Desktop/log";
+        String savePath = "C:/Users/yinyayun/Desktop/自己维修/ifixit.txt";
+        String logPath = "C:/Users/yinyayun/Desktop/自己维修/log";
         String mainUrl = "https://zh.ifixit.com/Guide";
         int deepPerPage = 1000000;
-        List<String> carryurls = Arrays.asList(new String[]{mainUrl});
+        List<String> carryurls = Arrays.asList(new String[]{"https://zh.ifixit.com/Guide"});
         //
         FetchCollector<GuideContent> collector = new FetchCollector<GuideContent>(2000, savePath);
         FetchParser<GuideContent> parser = new IFixitGuidePagerParser(collector);
         NextPageParserA[] nextPageParser = {new IFixitAllCategoryURLParser(deepPerPage),
                 new IFixitCategoryUrlParser(deepPerPage), new IFixitGuideUrlParser(deepPerPage)};
         NetCarryConfig config = new NetCarryConfig();
-        config.setSleepTime(10000);
-        config.setFetchThreadNumber(5);
+        config.setFetchThreadNumber(1);
         config.setSleepTime(1000);
         new PageFetchExecutor<GuideContent>().executor(logPath, carryurls, config, parser, nextPageParser, collector);
 
