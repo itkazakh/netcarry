@@ -10,7 +10,6 @@ import java.util.List;
 import java.util.Properties;
 
 import org.apache.log4j.PropertyConfigurator;
-import org.yinyayun.netcarry.core.collect.FetchCollector;
 import org.yinyayun.netcarry.core.config.NetCarryConfig;
 import org.yinyayun.netcarry.core.parser.FetchParser;
 import org.yinyayun.netcarry.core.parser.NextPageParserA;
@@ -22,8 +21,8 @@ import org.yinyayun.netcarry.core.parser.NextPageParserA;
  */
 public class PageFetchExecutor<T> {
 
-    public void executor(String logPath, List<String> carryUrls, NetCarryConfig config, FetchParser<T> fetchParser,
-            NextPageParserA[] nextPageParsers, FetchCollector<T> collector) throws IOException {
+    public void execute(String logPath, List<String> carryUrls, NetCarryConfig config, FetchParser<T> fetchParser,
+            NextPageParserA[] nextPageParsers) throws IOException {
         initLog4j(logPath);
         try (PageFetch<T> pageFetch = new PageFetch<T>(fetchParser, nextPageParsers, config)) {
             pageFetch.startFetch(carryUrls);
