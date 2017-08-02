@@ -3,9 +3,13 @@
  */
 package org.yinyayun.netcarry.biz.ifixit;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.commons.io.FileUtils;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
@@ -26,15 +30,10 @@ public class IFixitGuidePagerParser extends FetchParser<GuideContent> {
         super(collector);
     }
 
-    public static void main(String[] args) {
-        new IFixitGuidePagerParser(null)
-                .needParser("https://zh.ifixit.com/Guide/VuPoint+DC-ST210-VP+Battery+Door+Cover+Replacement/33726");
-
-    }
-
     @Override
     public boolean needParser(String url) {
-        return url.startsWith("https://zh.ifixit.com/Guide") && !url.equals("https://zh.ifixit.com/Guide");
+        return (url.startsWith("https://zh.ifixit.com/Guide") && !url.equals("https://zh.ifixit.com/Guide"))
+                || (url.startsWith("https://zh.ifixit.com/Teardown") && !url.equals("https://zh.ifixit.com/Teardown"));
     }
 
     // https://zh.ifixit.com/Guide/iPhone+1st+Generation+Antenna+Cover+Replacement/441
@@ -50,8 +49,9 @@ public class IFixitGuidePagerParser extends FetchParser<GuideContent> {
     // 步骤文字:step-lines-container -> step-lines -> p
     @Override
     protected List<GuideContent> parser(PageMetas metas, Document document) {
+        int type = metas.getCurrentUrl().startsWith("https://zh.ifixit.com/Teardown") ? 1 : 0;
         List<GuideContent> guides = new ArrayList<GuideContent>();
-        GuideContent guideContent = new GuideContent();
+        GuideContent guideContent = new GuideContent(type);
         parserForTitle(guideContent, document);
         parserForDes(guideContent, document);
         parserForTools(guideContent, document);
@@ -149,5 +149,10 @@ public class IFixitGuidePagerParser extends FetchParser<GuideContent> {
                 }
             }
         }
+    }
+
+    public static void main(String[] args) throws IOException {
+        Document document = Jsoup.parse(FileUtils.readFileToString(new File("data/termdown-example.txt")));
+        new IFixitGuidePagerParser(null).fetchPaser(new PageMetas("", ""), document);
     }
 }

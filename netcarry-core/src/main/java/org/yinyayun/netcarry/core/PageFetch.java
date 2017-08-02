@@ -9,7 +9,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.LinkedBlockingQueue;
+import java.util.concurrent.RejectedExecutionHandler;
 import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
@@ -31,7 +34,9 @@ import org.yinyayun.netcarry.core.parser.NextPageParserA;
  */
 public class PageFetch<T> implements Closeable {
     public final Logger logger = LoggerFactory.getLogger(PageFetch.class);
-    // 待收抓取url队列
+    // 负责待抓取页面入队列
+    private ExecutorService executorService;
+    // 待收抓取url队列,理论上在磁盘上实现该逻辑会更好
     private LinkedBlockingQueue<PageMetas> tobeCarrayURLQueue;
     /**
      * 已经抓取的URL
@@ -49,6 +54,14 @@ public class PageFetch<T> implements Closeable {
         this.tobeCarrayURLQueue = new LinkedBlockingQueue<PageMetas>(config.getTobeCarryQueueSize());
         this.executor = new ThreadPoolExecutor(config.getFetchThreadNumber(), config.getFetchThreadNumber() * 2, 0L,
                 TimeUnit.MILLISECONDS, new LinkedBlockingQueue<Runnable>());
+        this.executorService = new ThreadPoolExecutor(10, 20, 0, TimeUnit.MILLISECONDS,
+                new ArrayBlockingQueue<Runnable>(1000), new RejectedExecutionHandler() {
+
+                    @Override
+                    public void rejectedExecution(Runnable r, ThreadPoolExecutor executor) {
+                        new Thread(r).start();
+                    }
+                });
         for (int i = 0; i < config.getFetchThreadNumber(); i++) {
             executor.submit(() -> {
                 fetch();
@@ -78,16 +91,18 @@ public class PageFetch<T> implements Closeable {
      * @throws InterruptedException
      */
     private void addURL(PageMetas paMetas) {
-        try {
-            if (!fetchedUrls.contains(paMetas.getCurrentUrl())) {
-                logger.info("添加至待抓取队列:{}", paMetas.getCurrentUrl());
-                tobeCarrayURLQueue.put(paMetas);
-                fetchedUrls.add(paMetas.getCurrentUrl());
+        executorService.execute(() -> {
+            try {
+                if (!fetchedUrls.contains(paMetas.getCurrentUrl())) {
+                    logger.info("添加至待抓取队列:{}", paMetas.getCurrentUrl());
+                    tobeCarrayURLQueue.put(paMetas);
+                    fetchedUrls.add(paMetas.getCurrentUrl());
+                }
             }
-        }
-        catch (Exception e) {
-            throw new RuntimeException(e.getMessage(), e);
-        }
+            catch (Exception e) {
+                throw new RuntimeException(e.getMessage(), e);
+            }
+        });
     }
 
     /**
@@ -115,6 +130,7 @@ public class PageFetch<T> implements Closeable {
         // 防止重复抓取
         while (true) {
             try {
+                // TODO allen 因生产和消费在一个线程，并且生产的URL要多余消费的URL，所以会导致阻塞队列满了之后的阻塞
                 PageMetas pageMetas = takeURL();
                 String url = pageMetas.getCurrentUrl();
                 Connection conn = createConnection(url);

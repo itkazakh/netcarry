@@ -1,0 +1,1748 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="lt-ie10 lt-ie9 lt-ie8 lt-ie7 ie6" lang="zh" xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if IE 7 ]>   <html class="lt-ie10 lt-ie9 lt-ie8 ie7" lang="zh" xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if IE 8 ]>   <html class="lt-ie10 lt-ie9 ie8" lang="zh" xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if IE 9 ]>   <html class="lt-ie10 ie9" lang="zh" xmlns:fb="http://ogp.me/ns/fb#"><![endif]-->
+<!--[if (gte IE 10)|!(IE)]><!--><html dir="ltr" lang="zh" xmlns:fb="http://ogp.me/ns/fb#"><!--<![endif]-->
+
+   <head>
+      <title>2012-2017 Toyota Camry Fog Light Bulb Replacement (2012, 2013, 2014, 2015, 2016, 2017) - iFixit</title>
+
+      
+      <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+      <meta name="viewport" content="width=1029, maximum-scale=10.0" />
+      <meta name="description" content="2012-2017 Toyota Camry Fog Light Bulb Replacement: A video guide on how to replace a fog light bulb on a 2012-2014 Toyota Camry." />
+      <meta name="title" content="2012-2017 Toyota Camry Fog Light Bulb Replacement (2012, 2013, 2014, 2015, 2016, 2017) - iFixit" />
+      <meta name="keywords" content="2012-2017 Toyota Camry Fog Light Bulb Replacement (2012, 2013, 2014, 2015, 2016, 2017), 2012-2017 Toyota Camry, Parts, Tools, Free Repair Guides, Manual, Teardowns" />
+
+                     <meta name="robots" content="index, follow" />
+      
+               <link id="canonical-link" rel="canonical" href="https://zh.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+      
+                  <link rel="alternate" hreflang="zh" href="https://zh.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="ja" href="https://jp.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="de" href="https://de.ifixit.com/Anleitung/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="en" href="https://www.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="es" href="https://es.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="fr" href="https://fr.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="it" href="https://it.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="nl" href="https://nl.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="pt" href="https://pt.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="ru" href="https://ru.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="tr" href="https://tr.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+            <link rel="alternate" hreflang="x-default" href="https://www.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+
+                                 <meta property="fb:app_id" content="401112919922369" />
+               
+                                                                  <meta property="og:type" content="article" />
+                                                                     <meta property="og:image" content="https://ifixit-guide-images.zh.ifixit.com/igi/RdFTdASaTxWYWxAc" />
+                                                                     <meta property="og:description" content="A video guide on how to replace a fog light bulb on a 2012-2014 Toyota Camry." />
+                                                                     <meta property="og:author" content="https://zh.ifixit.com/User/2012381/eCuration" />
+                                                                     <meta property="og:published_time" content="2017-06-28T15:21:16-07:00" />
+                                                                     <meta property="og:section" content="2012-2017 Toyota Camry" />
+                                                                     <meta property="og:modified_time" content="2017-07-03T13:53:06-07:00" />
+                                                                     <meta property="og:locale:alternate" content="de_DE" />
+                                 <meta property="og:locale:alternate" content="en_GB" />
+                                 <meta property="og:locale:alternate" content="es_LA" />
+                                 <meta property="og:locale:alternate" content="fr_FR" />
+                                 <meta property="og:locale:alternate" content="it_IT" />
+                                 <meta property="og:locale:alternate" content="ja_JP" />
+                                 <meta property="og:locale:alternate" content="nl_NL" />
+                                 <meta property="og:locale:alternate" content="pt_BR" />
+                                 <meta property="og:locale:alternate" content="ru_RU" />
+                                 <meta property="og:locale:alternate" content="tr_TR" />
+                                 <meta property="og:locale:alternate" content="zh_CN" />
+                                                                     <meta property="og:url" content="https://zh.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863" />
+                                                                     <meta property="og:title" content="2012-2017 Toyota Camry Fog Light Bulb Replacement (2012, 2013, 2014, 2015, 2016, 2017)" />
+                                                                     <meta property="og:site_name" content="iFixit" />
+                              
+            <meta name="verify-v1" content="jw37yaG9O4vmztqkH8xsZEeQtGHqzC3GZXfwk5xUCeM=" />
+
+            
+               <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      
+               <link rel="stylesheet" type="text/css" media="print" href="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/ifixit/Shared-print.css[ej-m-RsicBzcpqbxdfzumQ]" />
+      
+      
+            
+            
+            
+      
+      
+               <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic" />
+      
+               <link rel="stylesheet" type="text/css" href="https://ifixit-cacher.zh.ifixit.com/Assets/Guide/ifixit/guide-all.css[ph1vQjMhFUmaT9fIsPkjTg]" />
+               <link rel="stylesheet" type="text/css" href="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/ifixit/font-awesome.css[giGvg0XddkuKqOmX56z43Q]" />
+               <link rel="stylesheet" type="text/css" href="https://ifixit-cacher.zh.ifixit.com/Assets/Guide/ifixit/module-all.css[uh1id9g_oQ4s7N_mp8D9ng]" />
+               <link rel="stylesheet" type="text/css" href="https://ifixit-cacher.zh.ifixit.com/Assets/Guide/ifixit/new-guide-view-all.css[Q-fvGBCFLm9EK_D57y3Inw]" />
+               <link rel="stylesheet" type="text/css" href="https://ifixit-cacher.zh.ifixit.com/Assets/Guide/ifixit/prosemirror-all.css[DvrHxPLhABDvxTkSARFmRw]" />
+               <link rel="stylesheet" type="text/css" href="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/ifixit/Shared-i18n_formatting.css[9LOva9WsnX7BMbTW_2GIuw]" />
+               <link rel="stylesheet" type="text/css" href="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/ifixit/Shared-lead_generation_banner.css[-UM1aVxNpVT5XgvPtZoGkQ]" />
+      
+      
+      
+
+            
+
+            
+            
+                  
+   <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            
+            
+                     var createOptions = {};
+                     createOptions = {'legacyCookieDomain': 'ifixit.com'};
+         
+         ga('create', 'UA-30506-1', 'auto', 'ifixit', createOptions);
+      
+      ga('ifixit.set', 'dimension1', '0');
+      ga('ifixit.set', 'dimension2', '0');
+      
+               
+         // Enable Remarketing and Advertising Reporting Features in Google
+         // Analytics
+         ga('ifixit.require', 'displayfeatures');
+      
+         </script>
+
+            <script>
+      
+      
+               ga('ifixit.send', 'pageview');
+         </script>
+      
+               <!--[if lt IE 9]>
+   <script src="/Assets/Admin/en-Shared-html5shiv.min.js[7xtmU9ZLd0mjk7zPhvtW5g]"></script>
+<![endif]-->
+            <link rel="apple-touch-icon" sizes="57x57" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/manifest.json">
+<link rel="mask-icon" href="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="apple-mobile-web-app-title" content="iFixit">
+<meta name="application-name" content="iFixit">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="https://ifixit-assets.zh.ifixit.com/static/icons/ifixit/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+   </head>
+
+   <body class="zh hidePageEffect full-page-background responsive fullWidth user-guide">
+                           <div id="notifications" style="display:none;">
+   <div class="close"><i class="fa fa-times " ></i></div>
+   </div>
+               
+      
+      <div id="background">
+                  
+         <!-- Language Selector Modal -->
+<div id="language-modal" class="modal-dialog" style="display: none">
+   <h2>选择一种语言:</h2>
+   <div class="modal-body">
+      <form method="POST" action="/Login">
+         <ul>
+                           <li class="language-option language-flag language-flag-active" data-langid="zh" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-cn"></span>                     <p>中文</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="jp" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-jp"></span>                     <p>日本語</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="de" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-de"></span>                     <p>Deutsch</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="en" data-langhost="zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-us"></span>                     <p>English</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="es" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-es"></span>                     <p>Español</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="fr" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-fr"></span>                     <p>Français</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="it" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-it"></span>                     <p>Italiano</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="nl" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-nl"></span>                     <p>Nederlands</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="pt" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-br"></span>                     <p>Português</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="ru" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-ru"></span>                     <p>Русский язык</p>
+                  </a>
+               </li>
+                           <li class="language-option language-flag" data-langid="tr" data-langhost="/zh.ifixit.com">
+                  <a href="#" class="">
+                     <span class=" sprite-flag-lg sprite-flag-lg-tr"></span>                     <p>Türkçe</p>
+                  </a>
+               </li>
+                                                      <div class="machine-translate language-option">
+                   <label for="machine-translate-input">
+                      <input type="checkbox"
+                       id="machine-translate-input" class="machine-translate-input"
+                       name="machineTranslate"
+                       data-original-value=""
+                        />
+                      <span>机器翻译</span>
+                   </label>
+               </div>
+                    </ul>
+        <input type="hidden" class="langidInput" name="langid" value="">
+      </form>
+   </div>
+   <div class="modal-footer">      <a href="/Translate" class="help-translate button">帮助翻译 iFixit</a>
+   </div>
+</div>
+
+
+
+
+
+<div class="mobile-nav" id="mobileMenuOverlay">
+   <div class="menu-container">
+      <div id="mobileMenuClose" class="mobile-close-button">关闭 <i class="close-icon">&times;</i></div>
+      <h4>菜单</h4>
+      <ul class="mobile-nav-list">
+         <li><a href="/Guide">维修指南</a></li>
+         <li><a href="/Answers">问题解答论坛</a></li>
+         <li><a href="/Store">配件及工具商店</a></li>
+         <li><a href="/Teardown">拆​解</a></li>
+                     <li><a href="/Translate">翻译</a></li>
+               </ul>
+      </div>
+      <ul class="mobile-logged-out">
+         <li><a href="/Login/register">注册</a></li>
+         <li><a href="/Login">登录</a></li>
+      </ul>
+   </div>
+
+<div id="mobileSearchDropDiv" class="mobile-search-drop visible-mobile">
+   <form action="/Search" method="get" id="mobileSearchForm" class="ignoreCSRF">
+      <input type="text" name="query" id="searchFormMobile" class="mobile-search-field"
+         spellcheck="false" autocomplete="off" placeholder="搜索">
+            <button class="mobile-search-submit" id="searchSubmitMobile" type="submit">
+         开始      </button>
+   </form>
+</div>
+
+<header id="mainHeader" >
+   <section class="top">
+      <div class="header-container">
+         <a href="/" class="ifixit-header-logo" id="ifixit-logo" tabindex="-1">iFixit</a>
+         <form action="/Search" method="get" class="ignoreCSRF search-form hidden-mobile">
+            <input type="text" name="query" id="searchForm" class="search-field"
+             spellcheck="false" autocomplete="off" placeholder="搜索">
+                        <button class="search-submit" id="searchSubmit" type="submit" tabindex="0">
+               <span class="icon-search"></span>
+            </button>
+         </form>
+
+         <div class="right-container">
+                        <a href="#menu" id="mobileMenuButton" class="header-icon no-border hidden-desktop">
+               <span class="icon icon-hamburger"></span>
+            </a>
+
+                        <section class="action-buttons visible-desktop">
+               <div id="loggedInNav" class="login"  style="display:none" >
+                  <a href="#" id="profileMenuToggle" class="header-logged-in">
+                                          <span class="username" id="menuUsername">
+                                             </span>
+                     <i class="fa fa-angle-down " ></i>                  </a>
+                  <div class="dropdown-container account-dropdown" id="profileMenuContainer">
+                     <ul id="profileMenu" class="header-dropdown">   
+   
+      <li><a id="bulkOrder" href="/cart/bulk"><i class="fa fa-bolt " ></i>快速订购</a></li>
+   <li><a href="/New"><i class="fa fa-plus " ></i>创建一个页面</a></li>
+   <li><a href="/Cart/edit-profile"><i class="fa fa-money " ></i>编辑帐单信息</a></li>
+   <li><a id="orderHistory" href="/cart/order-history"><i class="fa fa-clock-o " ></i>订单历史记录</a></li>
+   <li><a id="navLogout" href="/Logout"><i class="fa fa-sign-out " ></i>注销</a></li>
+</ul>
+                  </div>
+               </div>
+               <div id="loggedOutNav" class="login" >
+                  <div class="header-login">
+                     <a href="/Login/register" class="hidden-tablet" id="navSignup">注册</a>
+                     <a href="/Login" id="navLogin">登录</a>
+                  </div>
+               </div>
+            </section>
+
+                        <span class="header-icon js-trigger-language-modal">
+               <span class=" sprite-flag sprite-flag-cn"></span>            </span>
+
+            
+                        
+
+<span id="miniCart">
+   <!-- go directly to cart page on mobile devices -->
+   <a href="/cart/view" class="header-icon cart cartProductTotalIconToggle visible-mobile">
+      <span class="icon icon-cart"></span>
+      <span class="number ">
+               </span>
+   </a>
+
+   <a href="/cart/view" class="header-icon cart cartProductTotalIconToggle js-mini-cart-toggle hidden-mobile">
+      <span class="icon icon-cart"></span>
+      <span class="number cartProductTotalContainer ">
+               </span>
+   </a>
+
+   <div class="dropdown-container hidden-mobile js-mini-cart-dropdown">
+      <div class="mini-cart header-dropdown">
+         <div class="mini-cart-header">
+            <h1 class="mini-cart-heading">我的购物车</h1>
+         </div>
+
+         
+            <!-- empty state -->
+            <p class="mini-cart-empty-message">购物车是空的</p>
+            <div class="mini-cart-footer">
+               <a class="mini-cart-button button button-action-solid" href="/Store">浏览我们的商店</a>
+            </div>
+
+               </div>
+   </div>
+
+</span>
+
+                        
+                        <a href="#search" id="searchMenuButton" class="header-icon visible-mobile">
+               <span class="icon icon-search"></span>
+            </a>
+         </div>
+      </div>
+   </section>
+
+   <nav class="header-nav visible-desktop">
+               <div class="header-nav-item-container">
+            <a class="header-nav-item header-nav-item-primary" href="/Guide">
+               维修指南            </a>
+
+                     </div>
+               <div class="header-nav-item-container">
+            <a class="header-nav-item header-nav-item-primary" href="/Answers">
+               问题解答论坛            </a>
+
+                     </div>
+               <div class="header-nav-item-container">
+            <a class="header-nav-item header-nav-item-primary" href="/Store">
+               配件及工具商店            </a>
+
+                           <div class="header-nav-item-secondary-container">
+                                       <a class="header-nav-item header-nav-item-secondary" href="/Store/iPhone">
+                        iPhone配件                     </a>
+                                       <a class="header-nav-item header-nav-item-secondary" href="/Store/Android">
+                        Android Parts                     </a>
+                                       <a class="header-nav-item header-nav-item-secondary" href="/Store/Tools">
+                        工具                     </a>
+                                 </div>
+                     </div>
+               <div class="header-nav-item-container">
+            <a class="header-nav-item header-nav-item-primary" href="/Teardown">
+               拆​解            </a>
+
+                     </div>
+               <div class="header-nav-item-container">
+            <a class="header-nav-item header-nav-item-primary" href="/Translate">
+               翻译            </a>
+
+                     </div>
+         </nav>
+
+</header>
+
+         
+                  
+   <div id="page">
+      
+      <div id="main" >
+
+         
+         
+         <div id="mainBody"
+                     >
+            
+            <!-- MAIN BODY -->
+            
+                        
+                                       <div id="bodyTop" class="fullWidth clearfix">
+               
+
+<div class="page-navigation-container js-page-navigation row
+ guide-navigation-in-header  page-navigation-desktop">
+   <div class="column full-width js-content-dropdown-container content-dropdown-default">
+      <ul class="row page-navigation-bar">
+                     <li class="page-navigation-link
+ back-link column  ">
+         <a  href="/Device/2012-2017_Toyota_Camry"        class=""
+              >
+                     <i class="svg-icon"   style="display: inline-block; width: 16px; height: 16px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="20" y1="12" x2="4" y2="12"/>
+    <polyline points="10 18 4 12 10 6"/>
+</svg></i><span class="visible-mobile-tablet-inline">后退</span><span class="hidden-mobile-tablet">2012-2017 Toyota Camry Repair</span>
+               </a>
+   </li>
+                              <li class="page-navigation-link
+   hidden-mobile">
+         <a  href="/Guide/translate/94863/zh"        class=""
+                id="edit-nav-link"
+              >
+                     <span class="hidden-mobile">翻译</span><i class="svg-icon" alt="翻译" title="翻译" style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20,14.66V20a2,2,0,0,1-2,2H4a2,2,0,0,1-2-2V6A2,2,0,0,1,4,4H9.34"/>
+    <polygon points="18 2 22 6 12 16 8 16 8 12 18 2"/>
+</svg></i>               </a>
+   </li>
+                     <li class="page-navigation-link
+   ">
+         <a  href="https://zh.ifixit.com/Guide/embed/94863"        class="fullscreen-nav-link"
+              >
+                     <span class="hidden-mobile">全屏显示</span><i class="svg-icon" alt="全屏显示" title="全屏显示" style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21,16v3a2,2,0,0,1-2,2H16"/>
+    <path d="M16,3h3a2,2,0,0,1,2,2V8"/>
+    <path d="M3,8V5A2,2,0,0,1,5,3H8"/>
+    <path d="M8,21H5a2,2,0,0,1-2-2V16"/>
+</svg></i>               </a>
+   </li>
+                              <li class="page-navigation-link
+   ">
+         <a        class="js-content-dropdown-toggle content-dropdown-toggle"
+              >
+                     <span class="hidden-mobile">选项</span><i class="svg-icon" alt="选项" title="选项" style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="5" r="1" fill="currentColor"/>
+    <circle cx="12" cy="12" r="1" fill="currentColor"/>
+    <circle cx="12" cy="19" r="1" fill="currentColor"/>
+</svg></i>               </a>
+   </li>
+               </ul>
+               <ul class="content-dropdown-list">
+                           <li class="page-navigation-link
+   ">
+         <a  href="/Guide/history/94863"        class="link-history"
+              >
+                     <i class="fa fa-history " ></i>            历史               </a>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <button class="button button-transparent button-favorite js-favorite control"
+ data-unlikedText="添加到收藏夹"
+ data-likedText="从收藏夹中删除"
+ data-unlikedIcon="fa-star-o"
+ data-likedIcon="fa-star"
+ data-useTooltip="false"
+ data-docid="94863"
+ data-doctype="guides">
+   <i class="fa fa-star-o js-icon-el" ></i>   <span class="likeText">添加到收藏夹</span>
+</button>
+
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <a  href="/GuidePDF/link/94863"        class=""
+              >
+                     <i class="fa fa-file-pdf-o " ></i>            下载 PDF               </a>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <button class="button button-transparent js-show-shareable-link js-content-dropdown-close"
+ data-shareable-link="https://zh.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863">
+   <i class="fa fa-link " ></i>   获取共享链接</button>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <a        class="button js-show-embed js-content-dropdown-close"
+              >
+                     <i class="fa fa-code " ></i>            嵌入本指南               </a>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <button class="button button-transparent js-subscribe-edit js-content-dropdown-close">
+   <span class="subscribe-edits "><i class="fa fa-bell-slash " ></i></span>
+   <span class="un-subscribe-edits hidden"><i class="fa fa-bell " ></i></span>
+   变更时请通知我</button>
+
+   </li>
+                     </ul>
+         </div>
+</div>
+
+<div id="leadGenerationBanner"></div>
+
+                              </div>
+            
+            <div class="statuses">
+</div>
+
+                                    
+                        
+            
+                        <div id="contentFloat">
+               <div id="content">
+                                 
+                                        <div class="wrapper"
+ itemscope itemtype="http://schema.org/Article">
+   <meta itemprop="mainEntityOfPage" content="https://zh.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863">
+   <div class="guide-container guide-v2 js-guide-container container">
+      <div class="guide-all-metadata">
+         <div class="guide-metadata guide-status-container">
+            <div class="statuses">
+</div>
+         </div>
+                     <div class="guide-metadata guide-title-container">
+   <h1 id="guide-intro-title" class="guide-title" itemprop="headline">2012-2017 Toyota Camry Fog Light Bulb Replacement</h1>
+   <meta itemprop="articleSection" content="2012-2017 Toyota Camry">
+            <div class="guide-author guide-title-subtext" itemprop="author" itemscope itemtype="http://schema.org/Person">撰写者：         <span itemprop="name">
+            <a class="guide-title-subtext-strong" href="/User/2012381/eCuration" itemprop="url">eCuration</a>
+         </span>
+               </div>
+            <div itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+         <meta itemprop="name" content="iFixit">
+         <div itemprop="logo" itemscope itemtype="http://schema.org/ImageObject">
+            <meta itemprop="url" content="https://ifixit-assets.zh.ifixit.com/static/images/logos/ifixit-logo-horizontal-60px.png">
+            <meta itemprop="width" content="169">
+            <meta itemprop="height" content="60">
+         </div>
+      </div>
+            <meta itemprop="datePublished" content="2017-06-28T15:21:16-07:00">
+            <meta itemprop="dateModified" content="2017-07-03T13:53:06-07:00">
+         <ul class="stats-container visible-desktop">
+      <li class="comments-count">
+         <i class="fa fa-comment " ></i>评论：         <span class="stats-value" itemprop="commentCount">0</span>
+      </li>
+      <li class="favorites-count">
+         <i class="fa fa-star " ></i> 收藏 <span class="stats-value js-favorites-count">0</span>
+      </li>
+               </ul>
+</div>
+                  <div class="guide-metadata guide-main-image-container">
+         <div class="guide-main-image"
+       itemprop="image" itemscope itemtype="http://schema.org/ImageObject">
+         <img itemprop="url" src="https://ifixit-guide-images.zh.ifixit.com/igi/RdFTdASaTxWYWxAc.medium"
+          alt="主引导照片"
+          sizes="(max-width: 740px) 100vw, 405px"
+          srcset="https://ifixit-guide-images.zh.ifixit.com/igi/RdFTdASaTxWYWxAc.medium 592w, https://ifixit-guide-images.zh.ifixit.com/igi/RdFTdASaTxWYWxAc.large 800w, https://ifixit-guide-images.zh.ifixit.com/igi/RdFTdASaTxWYWxAc.huge 1600w">
+         <meta itemprop="width" content="592">
+         <meta itemprop="height" content="444">
+      </div>
+   
+   
+      <div class="blurred visible-mobile"
+    style="background-image:url('https://ifixit-guide-images.zh.ifixit.com/igi/RdFTdASaTxWYWxAc.medium')"
+    ></div>
+</div>
+                     <div class="guide-metadata guide-details-container js-guide-details-container">
+   <div class="details-item-container">
+      <div class="details-item difficulty row moderate-difficulty">
+         <p class="item-title column"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="16" r="2"/>
+  <line x1="12" y1="9" x2="12" y2="14"/>
+  <path d="M6,19H2V15a10,10,0,0,1,20,0v4H18"/>
+</svg></i>难度</p>
+         <p class="item-value column">
+            <span class="difficulty-indicator">
+                              <span class="indicator-dot"></span><span
+                class="indicator-dot"></span><span
+                class="indicator-dot"></span>
+            </span>管理         </p>
+      </div>
+   </div>
+   <div class="details-item-container">
+      <div class="details-item row">
+         <p class="item-title column"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="8" y1="6" x2="21" y2="6"/>
+    <line x1="8" y1="12" x2="21" y2="12"/>
+    <line x1="8" y1="18" x2="21" y2="18"/>
+    <line x1="3" y1="6" x2="3" y2="6"/>
+    <line x1="3" y1="12" x2="3" y2="12"/>
+    <line x1="3" y1="18" x2="3" y2="18"/>
+</svg>
+</i>步骤</p>
+         <p class="item-value column">0</p>
+      </div>
+   </div>
+   <div id="guide-time-required" class="details-item-container">
+      <div class="details-item row">
+         <p class="item-title column"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10"/>
+  <polyline points="12 6 12 12 15 15"/>
+</svg></i>所需时间</p>
+                     <p class="item-value">
+               <a href="/Guide/intro/meta/94863">建议一个时间</a>??
+            </p>
+               </div>
+   </div>
+   <div id="guide-sections" class="details-item-container js-content-dropdown-container">
+      <div class="details-item row item-row-disabled">
+         <p class="item-title column"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <path d="M19,21l-7-5L5,21V5A2,2,0,0,1,7,3H17a2,2,0,0,1,2,2Z"/>
+</svg></i>节</p>
+         <p class="item-value column"><span class="highlight">0</span></p>
+         <div class="item-expand-button column">
+            <span class="expand"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="17 13 12 18 7 13"/>
+    <polyline points="17 7 12 12 7 7"/>
+</svg></i></span>
+            <span class="collapse"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="7 11 12 6 17 11"/>
+    <polyline points="7 17 12 12 17 17"/>
+</svg></i></span>
+         </div>
+      </div>
+      <div class="item-contents">
+         <ul class="sections-list">
+                     </ul>
+      </div>
+   </div>
+   <div id="guide-flags" class="details-item-container js-content-dropdown-container">
+      <div class="details-item row item-row-disabled">
+         <p class="item-title column"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg viewBox="0 0 24 24" fill="none" stroke-linejoin="round" stroke-width="2" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10">
+  <path d="M13.71,3.86,22.18,18a2,2,0,0,1-1.71,3H3.53a2,2,0,0,1-1.71-3L10.29,3.86A2,2,0,0,1,13.71,3.86Z"/>
+  <line x1="12" y1="9" x2="12" y2="13"/>
+  <line x1="12" y1="17" x2="12" y2="17"/>
+</svg></i>标志</p>
+         <p class="item-value column"><span class="highlight">0</span></p>
+         <div class="item-expand-button column">
+            <span class="expand"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="17 13 12 18 7 13"/>
+    <polyline points="17 7 12 12 7 7"/>
+</svg></i></span>
+            <span class="collapse"><i class="svg-icon"   style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="7 11 12 6 17 11"/>
+    <polyline points="7 17 12 12 17 17"/>
+</svg></i></span>
+         </div>
+      </div>
+      <div class="item-contents">
+               </div>
+   </div>
+</div>
+                           
+
+<div class="page-navigation-container js-page-navigation row
+ guide-navigation-in-page page-navigation-mobile ">
+   <div class="column full-width js-content-dropdown-container content-dropdown-default">
+      <ul class="row page-navigation-bar">
+                     <li class="page-navigation-link
+ back-link column  ">
+         <a  href="/Device/2012-2017_Toyota_Camry"        class=""
+              >
+                     <i class="svg-icon"   style="display: inline-block; width: 16px; height: 16px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <line x1="20" y1="12" x2="4" y2="12"/>
+    <polyline points="10 18 4 12 10 6"/>
+</svg></i><span class="visible-mobile-tablet-inline">后退</span><span class="hidden-mobile-tablet">2012-2017 Toyota Camry Repair</span>
+               </a>
+   </li>
+                              <li class="page-navigation-link
+   ">
+         <a  href="https://zh.ifixit.com/Guide/embed/94863"        class="fullscreen-nav-link"
+              >
+                     <span class="hidden-mobile">全屏显示</span><i class="svg-icon" alt="全屏显示" title="全屏显示" style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21,16v3a2,2,0,0,1-2,2H16"/>
+    <path d="M16,3h3a2,2,0,0,1,2,2V8"/>
+    <path d="M3,8V5A2,2,0,0,1,5,3H8"/>
+    <path d="M8,21H5a2,2,0,0,1-2-2V16"/>
+</svg></i>               </a>
+   </li>
+                              <li class="page-navigation-link
+   ">
+         <a        class="js-content-dropdown-toggle content-dropdown-toggle"
+              >
+                     <span class="hidden-mobile">选项</span><i class="svg-icon" alt="选项" title="选项" style="display: inline-block; width: 24px; height: 24px;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="12" cy="5" r="1" fill="currentColor"/>
+    <circle cx="12" cy="12" r="1" fill="currentColor"/>
+    <circle cx="12" cy="19" r="1" fill="currentColor"/>
+</svg></i>               </a>
+   </li>
+               </ul>
+               <ul class="content-dropdown-list">
+                           <li class="page-navigation-link
+   ">
+         <a  href="/Guide/history/94863"        class="link-history"
+              >
+                     <i class="fa fa-history " ></i>            历史               </a>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <button class="button button-transparent button-favorite js-favorite control"
+ data-unlikedText="添加到收藏夹"
+ data-likedText="从收藏夹中删除"
+ data-unlikedIcon="fa-star-o"
+ data-likedIcon="fa-star"
+ data-useTooltip="false"
+ data-docid="94863"
+ data-doctype="guides">
+   <i class="fa fa-star-o js-icon-el" ></i>   <span class="likeText">添加到收藏夹</span>
+</button>
+
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <a  href="/GuidePDF/link/94863"        class=""
+              >
+                     <i class="fa fa-file-pdf-o " ></i>            下载 PDF               </a>
+   </li>
+                           <li class="page-navigation-link
+  visible-mobile ">
+         <a  href="/Guide/translate/94863/zh"        class=""
+              >
+                     <i class="fa fa-language " ></i>            翻译               </a>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <button class="button button-transparent js-show-shareable-link js-content-dropdown-close"
+ data-shareable-link="https://zh.ifixit.com/Guide/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement/94863">
+   <i class="fa fa-link " ></i>   获取共享链接</button>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <a        class="button js-show-embed js-content-dropdown-close"
+              >
+                     <i class="fa fa-code " ></i>            嵌入本指南               </a>
+   </li>
+                           <li class="page-navigation-link
+   ">
+         <button class="button button-transparent js-subscribe-edit js-content-dropdown-close">
+   <span class="subscribe-edits "><i class="fa fa-bell-slash " ></i></span>
+   <span class="un-subscribe-edits hidden"><i class="fa fa-bell " ></i></span>
+   变更时请通知我</button>
+
+   </li>
+                     </ul>
+         </div>
+</div>
+      </div>
+
+      
+      
+                  <div class="introduction-container">
+      <h2>简介</h2>
+      <div itemprop="description"><p>Follow this video tutorial by YouTuber <a href="https://www.youtube.com/user/NutzAboutBolts2/featured" target="_blank">NutzAboutBolts</a> to complete the replacement of a fog light bulb.</p></div>
+   </div>
+      
+               <div class="row">
+            <div class="column full-width full-width-video">
+               <div class="row">
+   <div class="column four-fifths">
+      <h2>视频介绍</h2>
+   </div>
+               <noscript>了解如何使用此视频修复你的2012-2017 Toyota Camry。</noscript>
+      </div>
+<div class="row video-container">
+   <div class="column video-container-inner video-medium js-video-container" data-video-size="large">
+               
+<div     class="oembedContainer "
+    >
+           <iframe width="1280" height="720" src="https://www.youtube.com/embed/igbT1Rr0mD8?feature=oembed" frameborder="0" allowfullscreen></iframe>    </div>
+               </div>
+</div>
+            </div>
+         </div>
+      
+      
+                  <div class="row item-list-container">
+      <div class="column one-half item-list-tools">
+         <div class="item-list-header row">
+   <h3 class="column full-width">工具</h3>
+   </div>
+<ul class="item-list-featured attachment-link-list no-columns">
+                                                </ul>
+   <ul class="item-list fa-ul">
+                                       <li class="item-list-item"><a
+             href="http://www.anrdoezrs.net/links/8269773/type/dlg/http://www.oscaroparts.com/torin-jack-t83002-20498754-14315-p?ctx=%7b%22part.genart%22%3a%2214315%22%2c%22vehicle.oscvehicleconfig%22%3a%22102182%22%7d"
+             data-price=""
+             data-subtitle-text="在 Oscaro 发售"
+             data-guideinfo=""
+             data-subtitle-class="supplier"
+                             data-is-for-sale
+                                          data-external-supplier
+                          data-supplier="Oscaro"
+             data-image="https://ifixit-guide-images.zh.ifixit.com/igi/GHnDpYpTXGQEPVAH.thumbnail"
+             data-purchaseUrl="http://www.anrdoezrs.net/links/8269773/type/dlg/http://www.oscaroparts.com/torin-jack-t83002-20498754-14315-p?ctx=%7b%22part.genart%22%3a%2214315%22%2c%22vehicle.oscvehicleconfig%22%3a%22102182%22%7d"
+             data-wikiUrl="/Item/Hydraulic_Jack"
+             data-editUrl="/Item/Edit/Hydraulic_Jack"
+             data-text="Hydraulic floor jack used for lifting vehicles."
+             data-private="0"
+             data-tooltip-class="item-hover"
+             data-info-button-class="button button-small button-transparent"
+             data-buy-button-class="button button-small button-action">
+                  <span class="itemName">Hydraulic Floor Jack</span>
+                                 </a>
+                                 <i class="fa fa-external-link-square fa-li" ></i>                           </li>
+                                                <li class="item-list-item"><a
+             href="https://www.amazon.com/Torin-T43002-Jack-Stands-pair/dp/B000CO86BY/ref=sr_1_7?ie=UTF8&amp;qid=1487796892&amp;sr=8-7&amp;keywords=floor+jack&amp;tag=ifixitam-20"
+             data-price=""
+             data-subtitle-text="在 Amazon 发售"
+             data-guideinfo=""
+             data-subtitle-class="supplier"
+                             data-is-for-sale
+                                          data-external-supplier
+                          data-supplier="Amazon"
+             data-image="https://ifixit-guide-images.zh.ifixit.com/igi/QaBmBNUvU5rthLRI.thumbnail"
+             data-purchaseUrl="https://www.amazon.com/Torin-T43002-Jack-Stands-pair/dp/B000CO86BY/ref=sr_1_7?ie=UTF8&amp;qid=1487796892&amp;sr=8-7&amp;keywords=floor+jack&amp;tag=ifixitam-20"
+             data-wikiUrl="/Item/Jack_Stand"
+             data-editUrl="/Item/Edit/Jack_Stand"
+             data-text="Used to support the weight of a vehicle to perform work on its undercarriage."
+             data-private="0"
+             data-tooltip-class="item-hover"
+             data-info-button-class="button button-small button-transparent"
+             data-buy-button-class="button button-small button-action">
+                  <span class="itemName">Jack Stands</span>
+                                 </a>
+                                 <i class="fa fa-external-link-square fa-li" ></i>                           </li>
+                                                <li class="item-list-item"><a
+             href="https://www.amazon.com/gp/product/B008CE0R5E/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1&amp;tag=ifixitam-20"
+             data-price=""
+             data-subtitle-text="在 Amazon 发售"
+             data-guideinfo=""
+             data-subtitle-class="supplier"
+                             data-is-for-sale
+                                          data-external-supplier
+                          data-supplier="Amazon"
+             data-image="https://ifixit-guide-images.zh.ifixit.com/igi/WFPSdSG5VsnDytra.thumbnail"
+             data-purchaseUrl="https://www.amazon.com/gp/product/B008CE0R5E/ref=oh_aui_search_detailpage?ie=UTF8&amp;psc=1&amp;tag=ifixitam-20"
+             data-wikiUrl="/Item/Wheel_Chocks"
+             data-editUrl="/Item/Edit/Wheel_Chocks"
+             data-text="Used to secure vehicles from rolling during maintenance."
+             data-private="0"
+             data-tooltip-class="item-hover"
+             data-info-button-class="button button-small button-transparent"
+             data-buy-button-class="button button-small button-action">
+                  <span class="itemName">Wheel Chocks</span>
+                                 </a>
+                                 <i class="fa fa-external-link-square fa-li" ></i>                           </li>
+                                                <li class="item-list-item"><a
+             href="http://www.amazon.com/Stanley-91-928-4-Inch-Release-Ratchet/dp/B000NJ7U1A/ref=sr_1_1?s=hi&amp;ie=UTF8&amp;qid=1434661500&amp;sr=1-1&amp;keywords=1%2F4+socket+wrench&amp;tag=ifixitam-20"
+             data-price=""
+             data-subtitle-text="在 Amazon 发售"
+             data-guideinfo=""
+             data-subtitle-class="supplier"
+                             data-is-for-sale
+                                          data-external-supplier
+                          data-supplier="Amazon"
+             data-image="https://ifixit-guide-images.zh.ifixit.com/igi/6UNFNVP3SLcqsHa2.thumbnail"
+             data-purchaseUrl="http://www.amazon.com/Stanley-91-928-4-Inch-Release-Ratchet/dp/B000NJ7U1A/ref=sr_1_1?s=hi&amp;ie=UTF8&amp;qid=1434661500&amp;sr=1-1&amp;keywords=1%2F4+socket+wrench&amp;tag=ifixitam-20"
+             data-wikiUrl="/Item/1_4in_socket_wrench"
+             data-editUrl="/Item/Edit/1_4in_socket_wrench"
+             data-text="1/4-Inch Drive Ratcheting Socket Wrench"
+             data-private="0"
+             data-tooltip-class="item-hover"
+             data-info-button-class="button button-small button-transparent"
+             data-buy-button-class="button button-small button-action">
+                  <span class="itemName">1/4&quot; Drive Ratchet</span>
+                                 </a>
+                                 <i class="fa fa-external-link-square fa-li" ></i>                           </li>
+                                                <li class="item-list-item"><a
+             href="http://www.amazon.com/TEKTON-14142-8-Inch-Shallow-6-Point/dp/B000NY7A10/ref=sr_1_2?ie=UTF8&amp;qid=1431011227&amp;sr=8-2&amp;keywords=10+mm+socket&amp;tag=ifixitam-20"
+             data-price=""
+             data-subtitle-text="在 Amazon 发售"
+             data-guideinfo=""
+             data-subtitle-class="supplier"
+                             data-is-for-sale
+                                          data-external-supplier
+                          data-supplier="Amazon"
+             data-image="https://ifixit-guide-images.zh.ifixit.com/igi/oOwIF1S1fMEH1fGA.thumbnail"
+             data-purchaseUrl="http://www.amazon.com/TEKTON-14142-8-Inch-Shallow-6-Point/dp/B000NY7A10/ref=sr_1_2?ie=UTF8&amp;qid=1431011227&amp;sr=8-2&amp;keywords=10+mm+socket&amp;tag=ifixitam-20"
+             data-wikiUrl="/Item/10mm_Socket"
+             data-editUrl="/Item/Edit/10mm_Socket"
+             data-text=""
+             data-private="0"
+             data-tooltip-class="item-hover"
+             data-info-button-class="button button-small button-transparent"
+             data-buy-button-class="button button-small button-action">
+                  <span class="itemName">10mm Socket</span>
+                                 </a>
+                                 <i class="fa fa-external-link-square fa-li" ></i>                           </li>
+                  </ul>
+      </div>
+      <div class="column one-half item-list-parts">
+         <div class="item-list-header row">
+   <h3 class="column full-width">配件</h3>
+   </div>
+<ul class="item-list-featured attachment-link-list no-columns">
+                           <li class="attachment-link">
+   <div class="row attachment-container">
+               <a href="http://www.anrdoezrs.net/links/8269773/type/dlg/http://www.oscaroparts.com/search/go?lbc=oscaro&amp;method=and&amp;original_keyword=fog%20light%20bulb&amp;p=Q&amp;ts=custom&amp;uid=420175126&amp;view=list&amp;w=fog%20light%20bulb&amp;af=cat2%3aelectricallightingbody_lighting%20cat1%3aelectricallightingbody">
+            <img src="https://ifixit-guide-images.zh.ifixit.com/igi/bsSJUAXCYSyQxMjZ.mini" alt="">
+         </a>
+            <div class="column">
+         <a href="http://www.anrdoezrs.net/links/8269773/type/dlg/http://www.oscaroparts.com/search/go?lbc=oscaro&amp;method=and&amp;original_keyword=fog%20light%20bulb&amp;p=Q&amp;ts=custom&amp;uid=420175126&amp;view=list&amp;w=fog%20light%20bulb&amp;af=cat2%3aelectricallightingbody_lighting%20cat1%3aelectricallightingbody">
+            <p class="title">Fog Light Bulb </p>
+         </a>
+         <p class="attachment-info"></p>
+         <p class="supplier attachment-subtitle">在 Oscaro 发售</p>
+      </div>
+      <a href="http://www.anrdoezrs.net/links/8269773/type/dlg/http://www.oscaroparts.com/search/go?lbc=oscaro&amp;method=and&amp;original_keyword=fog%20light%20bulb&amp;p=Q&amp;ts=custom&amp;uid=420175126&amp;view=list&amp;w=fog%20light%20bulb&amp;af=cat2%3aelectricallightingbody_lighting%20cat1%3aelectricallightingbody" class="button button-small button-transparent">购买</a>
+         </div>
+</li>
+         </ul>
+      </div>
+   </div>
+      
+         </div>
+   <div class="steps-container container">
+               </div>
+
+         <div class="completion-container container">
+         <div class="row">
+   <div class="column">
+
+      
+               <div class="guide-complete">
+            <div id="guideConclusion">
+               <div id="halfwayConclusion" class="hidden">
+                  <div class="finish-line">
+                     <i class="fa fa-undo " ></i>                     即将完成！                  </div>
+
+                  <div class="conclusionText">
+                                             <p>To reassemble your device, follow these instructions in reverse order.</p>                                       </div>
+               </div>
+
+               <div id="finishedConclusion" >
+                  <div class="finish-line">
+                     <i class="fa fa-flag-checkered " ></i>                     结论                  </div>
+
+                  <div class="conclusionText">
+                                             <p>To reassemble your device, follow these instructions in reverse order.</p>                                       </div>
+               </div>
+            </div>
+
+                           <div id="guideSuccess">
+                                       <button id="successButton" class="button button-large button-action-solid
+                      ">
+                        <i class="fa fa-check " ></i>                        给作者 + 30 分!                     </button>
+                  
+                  <button id="doneButton" class="button button-large button-transparent
+                   hidden">
+                     你完蛋了！                  </button>
+
+                  <p id="cancelComplete" class="hidden">
+                     <a href="#" id="oopsButton">取消：我没有完成这个指南。</a>
+                  </p>
+
+                  <p class="other-completions">
+                                                            </p>
+               </div>
+                           </div>
+   </div>
+</div>
+      </div>
+   
+   
+   
+         <div id="author" class="credit-author-team-container row">
+   <div class="author-container column">
+      <div class="author-heading row">
+         <h3 class="column">
+            <a class="fragment-link" href="#author">作者</a>
+         </h3>
+
+               </div>
+
+      <div class="author-meta row">
+         <div class="author-photo column">
+            <a href="/User/2012381/eCuration">
+               <img width="100" height="100" alt=""
+                src="https://ifixit-guide-images.zh.ifixit.com/igi/vxmZa1BuxNTWWnGf.thumbnail">
+            </a>
+         </div>
+
+         <div class="author-info column">
+            <h4>
+               <a href="/User/2012381/eCuration">
+                  eCuration               </a>
+            </h4>
+
+                           <p>入会日期：2017年05月19日</p>
+            
+                           <p>101 信誉积分</p>
+                        <p>
+               编写217 个指南            </p>
+         </div>
+
+                     <div class="author-badges column">
+                              <p class="hidden-mobile">
+                  <a href="/User/Graph/2012381/eCuration">
+                     徽章:
+                     <span class="num-badges">6</span>
+                  </a>
+               </p>
+
+               <ul class="badge-list">
+                                       <li>
+                        <a class="badge-link"
+                         title="创建十篇指南，拥有至少五十次浏览量"
+                         href="/Badge/ServiceManager">
+                           <img width="32" height="32" alt="Service Manager"
+                            src="https://ifixit-assets.zh.ifixit.com/static/images/badges/service-manager.svg">
+                        </a>
+                     </li>
+                                       <li>
+                        <a class="badge-link"
+                         title="创建五篇指南，拥有至少五十次浏览量"
+                         href="/Badge/Sensei">
+                           <img width="32" height="32" alt="Sensei"
+                            src="https://ifixit-assets.zh.ifixit.com/static/images/badges/pedagogue.svg">
+                        </a>
+                     </li>
+                                       <li>
+                        <a class="badge-link"
+                         title="发布你的第一篇指南"
+                         href="/Badge/Author">
+                           <img width="32" height="32" alt="Author"
+                            src="https://ifixit-assets.zh.ifixit.com/static/images/badges/author.svg">
+                        </a>
+                     </li>
+                                 </ul>
+                                                   <p class="num-left">
+                     <a href="/User/Graph/2012381/eCuration">
+                        + 3 个徽章                     </a>
+                  </p>
+                           </div>
+               </div>
+   </div>
+
+   </div>
+   
+      <div id="guide-comments" class="guide-comments-container container js-comment-container"
+        data-api="getCommentsHtml">
+      <div class="column comments js-comment-container"
+         data-api="getCommentsHtml"
+            id="guide-comments-container"
+   >
+   <div class="row comments-header">
+      <div class="hidden-mobile">
+         <h3 class="js-comment-count" data-numcomments="0">
+            0条评论         </h3>
+      </div>
+
+      <div class="comment-buttons">
+         <a class="addComment js-add-comment iconLink comments-header-button button button-medium hideZero" rel="nofollow"
+          data-context="guide"
+          data-contextid="94863"
+          data-addCount="1"
+          title="添加一条评论">
+            <i class="fa fa-comment-o fa-lg " ></i>            <span>添加一条评论</span>
+         </a>
+                        </div>
+   </div>
+   <div id="comments" class="js-comments">
+                        </div>
+   <div class="row">
+      <div class="column">
+         
+<form id="comment-form-guide-94863" class="add-comment-form js-add-comment-form
+"
+   data-context="guide"
+   data-contextid="94863" method="post">
+   <h4 class="js-add-comment-title">添加评论</h4>
+   <div class="formBody">
+      <div class="formField">
+               <textarea name="comment_content"
+            rows="6" class="js-comment-content fullWidth countCharacters
+           js-user-mention "
+          cols="20"></textarea>
+            </div>
+   </div>
+
+   <div class="form-footer">
+      <input class="js-comment-context" type="hidden" value="" />
+      <input class="js-comment-contextid" type="hidden" value="" />
+      <input class="post-comment button button-action-solid js-comment-submit" type="submit" value="发帖评论" />
+      <p class="maxCharacters js-max-characters" data-minimum="12" style="display:none">1024</p>
+   </div>
+</form>
+      </div>
+   </div>
+</div>
+   </div>
+</div>
+
+<div id="embedBox" style="display: none;">
+   <h3>嵌入本指南</h3>
+
+   <p>选择尺寸并复制下面的代码嵌入本指南，为你网站/论坛的一个小插件。</p>
+
+   <div class="button-container">
+      <button class="button button-checked js-embed-type js-button-checkable" data-embedType="single">单个步骤</button>
+      <button class="button js-embed-type js-button-checkable" data-embedType="full">完整指南</button>
+   </div>
+
+   <div class="button-container">
+      <button class="button js-embed-width js-button-checkable" data-embedWidth="600">小——600像素</button>
+      <button class="button button-checked js-embed-width js-button-checkable" data-embedWidth="800">中——800像素</button>
+      <button class="button js-embed-width js-button-checkable" data-embedWidth="1200">大——1200像素</button>
+   </div>
+
+   <form class="form">
+      <textarea style="display: none;" class="js-embed-text js-embed-full" data-embed-template="&lt;iframe id=&quot;dozuki-embed-94863&quot; src=&quot;https://zh.ifixit.com/Guide/embed/94863/full&quot; width=&quot;{width}&quot; allowfullscreen frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;script&gt;window.addEventListener(&quot;message&quot;,function(a){var b=document.getElementById(&quot;dozuki-embed-94863&quot;),c=a.data[0],d=a.data[1];switch(c){case&quot;setHeight&quot;:b.style.height=d+&quot;px&quot;}},!1);&lt;/script&gt;"
+          >&lt;iframe id=&quot;dozuki-embed-94863&quot; src=&quot;https://zh.ifixit.com/Guide/embed/94863/full&quot; width=&quot;800&quot; allowfullscreen frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
+&lt;script&gt;window.addEventListener(&quot;message&quot;,function(a){var b=document.getElementById(&quot;dozuki-embed-94863&quot;),c=a.data[0],d=a.data[1];switch(c){case&quot;setHeight&quot;:b.style.height=d+&quot;px&quot;}},!1);&lt;/script&gt;</textarea>
+      <textarea class="js-embed-text js-embed-single" data-embed-template="&lt;iframe src=&quot;https://zh.ifixit.com/Guide/embed/94863&quot; width=&quot;{width}&quot; height=&quot;{height}&quot; allowfullscreen frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;"
+          >&lt;iframe src=&quot;https://zh.ifixit.com/Guide/embed/94863&quot; width=&quot;800&quot; height=&quot;584&quot; allowfullscreen frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;</textarea>
+      <script>
+         window.addEventListener('message', function(e) {
+           var iframe = document.getElementById("dozuki-embed-94863");
+           if (!iframe) {
+              return false;
+           }
+           var eventName = e.data[0];
+           var data = e.data[1];
+           switch(eventName) {
+             case 'setHeight':
+               iframe.style.height = data + 'px';
+               break;
+           }
+         }, false);
+      </script>
+   </form>
+
+   <h3>预览</h3>
+</div>
+                                                </div>
+            </div>
+            <div class="clearer"></div>
+
+         </div> <!-- /mainBody -->
+
+         <div class="clearer"></div>
+      </div> <!-- /main -->
+   </div> <!-- /page -->
+   <div class="clearer"></div>
+   </div> <!-- /background -->
+         <div id="pageStats" class="has-margins">
+   <div class="stats-module-title"><i class="fa fa-bar-chart-o " ></i> <strong>浏览统计数据:</strong></div>
+   <div class="stats-numbers-container">
+               <p><span class="statTitle">过去的24小时：</span> <span class="statValue">0</span></p>
+               <p><span class="statTitle">过去的7天：</span> <span class="statValue">3</span></p>
+               <p><span class="statTitle">过去的30天：</span> <span class="statValue">11</span></p>
+               <p><span class="statTitle">总计</span> <span class="statValue">19</span></p>
+         </div>
+</div>
+<div class="clearer"></div>
+   
+   
+   <footer class>
+   <div class="footer-container">
+
+      <!-- Site Stats -->
+      <div class="footer-row footer-stats">
+         <div class="footer-col-4">
+            <p class="footer-stat">28,859</p>
+            <p>免费手册</p>
+         </div>
+         <div class="footer-col-4">
+            <p class="footer-stat">107,116</p>
+            <p>解决方案</p>
+         </div>
+         <div class="footer-col-4">
+            <p class="footer-stat">8,588</p>
+            <p>设备</p>
+         </div>
+      </div>
+
+      <!-- Link Columns -->
+      <div class="footer-row footer-links">
+         <!-- 1 iFixit Column -->
+         <div class="footer-col-3 footer-link-col">
+            <h3 class="js-slide-toggle">iFixit </h3>
+            <div class="js-slide-drawer slide-drawer">
+               <ul>
+                  <li><a href="/Info">关于我们</a></li>
+                  <li><a id="contact-link" href="http://help.ifixit.com">客户支持</a></li>
+                  <li><a href="/Info/Jobs">招聘信息</a></li>
+                  <li><a href="https://meta.ifixit.com">反馈</a></li>
+                  <li><a href="/Info/Media">新闻</a></li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- 2 Fix the Planet Column -->
+         <div class="footer-col-3 footer-link-col">
+            <h3 class="js-slide-toggle">修复地球</h3>
+            <div class="js-slide-drawer slide-drawer">
+               <ul>
+                  <li><a href="/Manifesto">修理宣言</a></li>
+                  <li><a href="/Teardown">拆​解</a></li>
+                  <li><a href="/Stories">修理的故事</a></li>
+                  <li><a href="/smartphone-repairability">电话的可修复性</a></li>
+                  <li><a href="/tablet-repairability">平板电脑的可修复性</a></li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- 3 Resources -->
+         <div class="footer-col-3 footer-link-col">
+            <h3 class="js-slide-toggle">资源</h3>
+            <div class="js-slide-drawer slide-drawer">
+               <ul>
+                  <li><a href="http://pro.ifixit.com/wholesale-program">批发</a></li>
+                  <li><a href="/api">API</a></li>
+                  <li><a href="http://www.omanual.org">开放手册</a></li>
+                  <li><a href="http://pro.ifixit.com">iFixit 专业版</a></li>
+                  <li><a href="/Apps">获取此应用程序</a></li>
+               </ul>
+            </div>
+         </div>
+
+         <!-- 4 Stay in the Loop -->
+         <div class="footer-col-3 footer-social-col">
+            <h3 class="js-slide-toggle">保持联系</h3>
+            <div id="newsletterFooterDiv" class="footer-subscribe js-slide-drawer slide-drawer">
+               <div class="footer-subscribe-liner">
+                  <p class="subscribe-description"><span id="newsletterIcon"></span><span id="newsletterText">定期了解新动态:</span></p>
+                  <form id="newsletterForm" novalidate>
+                     <input id="newsletterEmailInput" type="email" class="subscribe"
+                      placeholder="you@email.com"
+                      title="电子邮件地址"
+                      spellcheck="false">
+                     <button type="submit" class="submit-button">
+                        <i class="fa fa-envelope-o " ></i>                     </button>
+                  </form>
+                  <ul class="footer-social-icons hidden-mobile">
+                     <li><a href="http://facebook.com/ifixit"><i class="fa fa-fb " ></i></a></li>
+                     <li><a href="http://twitter.com/ifixit"><i class="fa fa-twit " ></i></a></li>
+                     <li><a href="http://www.youtube.com/user/iFixitYourself"><i class="fa fa-youtube-play " ></i></a></li>
+                     <li><a href="http://github.com/ifixit"><i class="fa fa-github-alt " ></i></a></li>
+                     <li><a href="http://www.instagram.com/ifixit"><i class="fa fa-instagram " ></i></a></li>
+                  </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- Language Select & Copyright -->
+      <div class="footer-row">
+         <a href="/Contribute" class="footer-bottom-button">
+            分享你的知识         </a>
+         <div class="copyright">
+            <p><time class="js-absolute-date" title="Tue, 01 Aug 2017 22:42:03 -0700" datetime="2017-08-01T22:42:03-07:00" data-format="%Y">2017</time> iFixit&mdash;&mdash;由<a href="/Info/Licensing">知识共享</a>授权许可</p>
+            <p><a href="/Info/Privacy">隐私政策</a></p>
+                        <p><a href="http://www.miitbeian.gov.cn/">沪ICP备16044039号</a></p>
+         </div>
+      </div>
+
+      <!-- Google Trusted Store Badge -->
+      <div id="gts_container"></div>
+
+   </div>
+
+</footer>
+
+
+            <script type='text/javascript'>
+   var App = {"textCompleteCss":"https:\/\/ifixit-cacher.zh.ifixit.com\/Assets\/Admin\/ifixit\/Shared-jquery.textcomplete.css[EFYQ8d77pmlekxX-_jlAqQ]","textCompleteJs":"https:\/\/ifixit-cacher.zh.ifixit.com\/Assets\/Admin\/en-Shared-jquery.textcomplete.js[mZh7DkOa09wiK3DUQQGo1w]","jqueryJs":"https:\/\/ifixit-cacher.zh.ifixit.com\/Assets\/Admin\/en-Shared-jquery-1.11.3.min.js[yVxN18XQ8UfOBrOTP0h2UA]","setMentions":true,"which":"ifixit","isLoggedIn":false,"lang":"zh","embedAspectRatio":0.729999999999999982236431605997495353221893310546875,"multipleCommentForms":true,"guideid":94863,"langid":"en","viewLangid":"zh","users":{"blakeklein":{"username":"Blake Klein","unique_username":"blakeklein","image":"https:\/\/ifixit-guide-images.zh.ifixit.com\/igi\/IHk2GkHxXYtrGEJ4.mini"}},"apiUrlParams":[],"googleOAuth2Clientid":"622418919965-qcvbv04spukbdo9ut8pevt4pucmkp86o@developer.gserviceaccount.com","googleOAuth2Domain":"","usernamePattern":"^[a-z][a-z0-9_]{2,14}$","maxMediaSize":100,"maxMediaLength":30,"videosEnabled":true,"userLikeInfo":{"guides_94863":{"count":0,"notLoggedIn":true,"likes":false}},"deviceName":"2012-2017 Toyota Camry","FrameModules":["ErrorFrameModule","LoginFrameModule","ImageMenuFrameModule","MediaLibraryFrameModule","NotifyFrameModule","WatchFrameModule","NewsletterFrameModule","UserLikeFrameModule","CommentsWatchFrameModule","CommentsFrameModule","PageStatsFrameModule","GuideApprovalNotifyFrameModule","LeadGenerationBannerFrameModule","ImageMarkersFrameModule","ImageCropFrameModule","ModeratorVoteFrameModule"],"onMobile":false,"siteName":"ifixit","useSecureCookies":true,"facebookAppId":"401112919922369","canonical":"https:\/\/zh.ifixit.com\/Guide\/2012+2013+2014+2015+2016+2017+Toyota+Camry+Fog+Light+Bulb+Replacement\/94863","page_title":"2012-2017 Toyota Camry Fog Light Bulb Replacement (2012, 2013, 2014, 2015, 2016, 2017) - iFixit"};
+</script>
+
+                  <script type="text/javascript" src="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/zh-global.js[UMd0BdrOCPwF_MspOcwTkw]"></script>
+            <script type="text/javascript" src="https://ifixit-cacher.zh.ifixit.com/Assets/Guide/zh-guide-all.js[PXpRwLt_GEt_aBHAZ5r64g]"></script>
+            <script type="text/javascript" src="https://ifixit-cacher.zh.ifixit.com/Assets/Guide/zh-module-all.js[_EUi0iqb0wXOzWQlfZvvFA]"></script>
+            <script type="text/javascript" src="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/zh-ifixit-header-footer.js[oYtLJWjLJzqfPCSFCCif7A]"></script>
+            <script type="text/javascript" src="https://ifixit-cacher.zh.ifixit.com/Assets/Guide/zh-new-guide-view-all.js[mqG5S3hjwQDbp508DPrxNQ]"></script>
+            <script type="text/javascript" src="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/en-commons.js[4F1FX0lhGTQXfgIxofW47g]"></script>
+            <script type="text/javascript" src="https://ifixit-cacher.zh.ifixit.com/Assets/Admin/en-prosemirror-comments.js[se7rdi6B1GLLRaQGu3GmFA]"></script>
+      
+      
+      <!--[if IE 7]>
+            <![endif]-->
+
+            
+            
+               <div id="NYModalBox" class="rightToRepairBox" style="display:none">
+   <div class="modalContent">
+      <h2>Speak out for your right to repair.</h2>
+      <h3>New York,</h3>
+     <p>New Yorkers stand up for what they believe in.  And we're asking you to
+      stand up for repair.</p>
+     <p>This year, New York could be the first state in the nation to pass the Fair Repair Act,
+      <a href="https://www.nysenate.gov/legislation/bills/2017/a8192">A8192</a> and
+      <a href="https://www.nysenate.gov/legislation/bills/2017/s618">S618.</a>
+      We have a chance to guarantee our right to repair electronic
+      equipment—like smartphones, computers, and even farm equipment. We have a
+      chance to protect local repair jobs—the corner mom-and-pop repair shops that
+      keep getting squeezed out by manufacturers.</p>
+
+      <p>It’s not going to be easy. Manufacturers are standing in the
+      way. When your stuff breaks, they want to be the only people allowed to fix it.
+      So far, they’ve managed to stop Fair Repair legislation before your
+      representatives get a chance to vote on it. We’ve got to be louder than their
+      lobbyists.</p>
+
+      <p>The Fair Repair Act, known as
+      <a href="https://www.nysenate.gov/legislation/bills/2017/a8192">A8192</a> and
+      <a href="https://www.nysenate.gov/legislation/bills/2017/s618">S618</a>,
+      requires manufacturers to provide owners
+      and independent repair businesses with fair access to service information,
+      security updates, and replacement parts. Tell your state representative to
+      support S618. Tell them you believe repair should be fair, affordable, and
+      accessible. Stand up for your right to repair.</p>
+
+      <div class="buttonContainer">
+         <a href="http://newyork.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large js-repair-action" target="_blank">Take Action</a>
+      </div>
+   </div>
+</div>
+<div id="MAModalBox" class="rightToRepairBox" style="display:none">
+   <div class="modalContent">
+      <h2>It's time to speak out for your right to repair.</h2>
+      <h3>Massachusetts,</h3>
+      <p>The people of Massachusetts have always stood up for their
+      right to repair. In 2012, voters passed a law that ensured
+      residents' right to repair their car wherever they wanted.
+      Now, it's time to do the same for electronics and other equipment.</p>
+
+      <p>With the Digital Right to Repair Act,
+      <a href="https://malegislature.gov/Bills/190/House/H143">H.143</a>
+      and <a href="https://malegislature.gov/Bills/190/Senate/S96">S.96</a>,
+      we have a chance to guarantee our right to repair electronics—like
+      smartphones, computers, and even farm equipment. The Digital Right to
+      Repair Act requires manufacturers to provide owners and independent repair
+      information businesses with fair access to service information, security
+      updates, and replacement parts.</p>
+
+      <p>But we need your help. Big manufacturers don't want this
+       bill passed. And they're working hard to defeat it.</p>
+
+      <p>If you think you have a right to repair your products, find out who
+      represents you in the Massachusetts legislature. Tell them repair is good
+      for the environment, good for consumers, and good for business. Tell
+      them you support the Digital Right to Repair Act, S.96 and H.143.</p>
+
+      <div class="buttonContainer">
+         <a href="http://massachusetts.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large js-repair-action" target="_blank">Take Action</a>
+      </div>
+   </div>
+</div>
+<div id="NEModalBox" class="rightToRepairBox" style="display:none">
+   <div class="modalContent">
+      <h2>It's time to speak out for your right to repair.</h2>
+      <h3>Nebraska,</h3>
+
+      <p>This year, the people of Nebraska have a chance to guarantee
+      their right to repair their equipment—like tractors, farm equipment,
+      digital equipment, and even cell phones.</p>
+
+      <p>It’s yours. You own it. You shouldn’t have to beg the manufacturer
+      for permission to fix it when it breaks. The <a href="http://nebraskalegislature.gov/FloorDocs/105/PDF/Intro/LB67.pdf">Fair Repair Act, or LB 67</a>,
+      is simple. It requires manufacturers to provide owners and independent
+      repair businesses with fair access to service information and replacement
+      parts. So you can fix the stuff you own quickly—and get back on with your
+      life.</p>
+
+      <p>But manufacturers don’t like that idea. When
+      your tractor breaks or your cell phone stops working, they want to be the
+      only people who can fix it. And they get to set whatever prices they want
+      for parts and service.</p>
+
+      <p>It’s time to fight for your right to repair and defend local repair jobs—the
+      corner mom-and-pop repair shops that keep getting squeezed out. Find
+      out who represents you in the Nebraska state legislature. Tell them you support
+      the bipartisan <a href="http://nebraskalegislature.gov/FloorDocs/105/PDF/Intro/LB67.pdf">Fair Repair Act, LB 67</a>. Tell them that you believe repair
+      should be fair, affordable, and accessible. Stand up for the right to repair
+      in Nebraska.</p>
+
+       <div class="buttonContainer">
+          <a href="http://nebraska.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large js-repair-action" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="MNModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Dear Minnesotans,</h3>
+       <p>Minnesota has a chance to become the first state in the nation to pass
+       "Fair Repair" legislation. <a href="https://www.revisor.mn.gov/bills/text.php?version=latest&session=ls90&session_number=0&session_year=2017&number=sf0015">SF 15, or the Fair Repair bill</a>, guarantees our
+       right to repair digital equipment like computers, refrigerators, cell phones
+       and tractors. It requires manufacturers to provide owners and independent
+       repair shops with access to repair information and replacement parts—so you
+       have the resources you need to fix things quickly and affordably.</p>
+
+       <p>But we need your help. Manufacturers don’t want a Fair Repair bill. When
+       your tractor breaks or your cell phone stops working, they want to be the
+       only people who can fix it. And they get to set whatever prices they want.</p>
+
+       <p>Find out who represents you in Minnesota's legislatures. Tell them that
+       you want the right to repair your purchases. Tell them you support a
+       bipartisan <a href="https://www.revisor.mn.gov/bills/text.php?version=latest&session=ls90&session_number=0&session_year=2017&number=sf0015">Fair Repair bill, SF 15</a>. Tell them repair is good for the
+       environment, good for consumers, and good for businesses.</p>
+
+       <div class="buttonContainer">
+          <a href="http://minnesota.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="KSModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Dear Kansans,</h3>
+       <p>Kansas has a chance to become the first state in the nation to pass
+       "Fair Repair" legislation. <a href="http://kslegislature.org/li/b2017_18/measures/hb2122/">HB 2122, or the Fair Repair Act</a>, guarantees our
+       right to repair digital equipment like computers, refrigerators, cell phones
+       and tractors. It requires manufacturers to provide owners and independent
+       repair shops with access to repair information and replacement parts—so you
+       have the resources you need to fix things quickly and affordably.</p>
+
+       <p>But we need your help. Manufacturers don’t want a Fair Repair bill. When
+       your tractor breaks or your cell phone stops working, they want to be the
+       only people who can fix it. And they get to set whatever prices they want.</p>
+
+       <p>Find out who represents you in Kansas' legislature. Tell them that
+       you want the right to repair your purchases. Tell them you support a
+       bipartisan bill. Tell them repair is good for farmers, good for consumers, and good for businesses.</p>
+
+       <div class="buttonContainer">
+          <a href="http://kansas.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="WYModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Dear Wyomingites,</h3>
+       <p>Wyoming has a chance to become the first state in the nation to pass
+       "Fair Repair" legislation. <a href="https://legiscan.com/WY/bill/HB0199/2017">HB 199, or the Fair Repair Act</a>, guarantees our
+       right to repair digital equipment like computers, refrigerators, cell phones
+       and tractors. It requires manufacturers to provide owners and independent
+       repair shops with access to repair information and replacement parts—so you
+       have the resources you need to fix things quickly and affordably.</p>
+
+       <p>But we need your help. Manufacturers don’t want a Fair Repair bill. When
+       your tractor breaks or your cell phone stops working, they want to be the
+       only people who can fix it. And they get to set whatever prices they want.</p>
+
+       <p>Find out who represents you in Wyoming's legislature. Tell them that
+       you want the right to repair your purchases. Tell them you support a
+       bipartisan bill. Tell them repair is good for farmers, good for consumers, and good for businesses.</p>
+
+       <div class="buttonContainer">
+          <a href="http://wyoming.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="WAModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Dear Washingtonians,</h3>
+       <p>Washington has a chance to become the first state in the nation to pass
+       "Fair Repair" legislation. The Fair Repair Act guarantees our
+       right to repair digital equipment like computers, refrigerators, cell phones
+       and tractors. It requires manufacturers to provide owners and independent
+       repair shops with access to repair information and replacement parts—so you
+       have the resources you need to fix things quickly and affordably.</p>
+
+       <p>But we need your help. Manufacturers don’t want a Fair Repair bill. When
+       your tractor breaks or your cell phone stops working, they want to be the
+       only people who can fix it. And they get to set whatever prices they want.</p>
+
+       <p>Find out who represents you in Washington's legislature. Tell them that
+       you want the right to repair your purchases. Tell them you support a
+       bipartisan bill. Tell them repair is good for farmers, good for consumers, and good for businesses.</p>
+
+       <div class="buttonContainer">
+          <a href="http://washington.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="TNModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Tennessee,</h3>
+       <p>This year, the people of Tennessee have a chance to guarantee their
+       right to repair their equipment—like tractors, farm equipment, digital
+       equipment, and even cell phones.</p>
+
+       <p>It's yours.  You own it.  You shouldn't have to beg the manufacturer
+       for permission to fix it when it breaks.  The Fair Repair Act is simple.
+       It requires manufacturers to provide owners and independent repair
+       businesses with fair access to service information and affordable replacement
+       parts.  So you can fix the stuff you own quickly—and get on with your life.</p>
+
+       <p>But manufacturers don't like that idea.  When your tractor breaks or
+       your cell phone stops working, they want to be the only people who can
+       fix it.  And they get to set whatever prices they want for parts and
+       service.</p>
+
+       <p>It's time to fight for your right to repair and defend local repair
+       jobs—the corner mom-and-pop repair shops that keep getting squeezed out.
+       Find out who represents you in the Tennessee General Assembly.  Tell
+       them you support the Fair Repair Act, <a href="https://legiscan.com/TN/bill/SB0888">SB 888 in the Senate</a>
+       and <a href="https://legiscan.com/TN/bill/HB1382/2017">HB 1382 in the
+       House</a>.  Tell them that you believe repair should be fair, affordable, and
+       accessible.  Stand up for the right to repair in Tennessee.</p>
+
+       <div class="buttonContainer">
+          <a href="http://tennessee.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="ILModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Illinois,</h3>
+       <p>This year, the people of Illinois  have a chance to guarantee their
+       right to repair their equipment—like tractors, farm equipment, digital
+       equipment, and even cell phones.</p>
+
+       <p>It's yours.  You own it.  You shouldn't have to beg the manufacturer
+       for permission to fix it when it breaks.  The <a href="http://www.ilga.gov/legislation/billstatus.asp?docnum=3030&gaid=14&ga=100&doctypeid=hb&legid=104597&sessionid=91">Digital Fair Repair Act</a> is simple.
+       It requires manufacturers to provide owners and independent repair
+       businesses with fair access to service information and affordable replacement
+       parts.  So you can fix the stuff you own quickly—and get on with your life.</p>
+
+       <p>But manufacturers don't like that idea.  When your tractor breaks or
+       your cell phone stops working, they want to be the only people who can
+       fix it.  And they get to set whatever prices they want for parts and
+       service.</p>
+
+       <p>It's time to fight for your right to repair and defend local repair
+       jobs—the corner mom-and-pop repair shops that keep getting squeezed
+       out.  Find out who represents you in the Illinois General Assembly.  Tell
+       them you support the <a href="http://www.ilga.gov/legislation/billstatus.asp?docnum=3030&gaid=14&ga=100&doctypeid=hb&legid=104597&sessionid=91">Digital Fair Repair Act, HB3030</a>.
+       Tell them that you believe repair should be fair, affordable, and
+       accessible.  Stand up for the right to repair in Illinois.</p>
+
+       <div class="buttonContainer">
+          <a href="http://illinois.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="IAModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Iowa,</h3>
+       <p>This year, the people of Iowa have a chance to guarantee their
+       right to repair their equipment—like tractors, farm equipment, digital
+       equipment, and even cell phones.</p>
+
+       <p>It's yours.  You own it.  You shouldn't have to beg the manufacturer
+       for permission to fix it when it breaks.  Iowa's <a href="https://www.legis.iowa.gov/legislation/BillBook?ga=87&ba=HF556">Right to Repair Act, HF556,</a> is simple.
+       It requires manufacturers to provide owners and independent repair
+       businesses with fair access to service information and affordable replacement
+       parts.  So you can fix the stuff you own quickly—and get on with your life.</p>
+
+       <p>But manufacturers like John Deere and Apple don't like that idea.  When your tractor breaks or
+       your cell phone stops working, they want to be the only people who can
+       fix it. And they get to set whatever prices they want for parts and
+       service.</p>
+
+       <p>It's time to fight for your right to repair and defend local repair
+       jobs—the corner mom-and-pop repair shops that keep getting squeezed
+       out.  Find out who represents you in the Iowa legislature.  Tell
+       them you support the <a href="https://www.legis.iowa.gov/legislation/BillBook?ga=87&ba=HF556">Right to Repair Act, HF556</a>.
+       Tell them that you believe repair should be fair, affordable, and
+       accessible.  Stand up for the right to repair in Iowa.</p>
+
+       <div class="buttonContainer">
+          <a href="http://iowa.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="NCModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>North Carolina,</h3>
+       <p>This year, the people of North Carolina have a chance to guarantee their
+       right to repair their equipment—like tractors, farm equipment, digital
+       equipment, and even cell phones.</p>
+
+       <p>It's yours.  You own it.  You shouldn't have to beg the manufacturer
+       for permission to fix it when it breaks.  North Carolina's <a href="https://legiscan.com/NC/text/H663/2017">Fair Repair Act, H. 663,</a> is simple.
+       It requires manufacturers to provide owners and independent repair
+       businesses with fair access to service information and affordable replacement
+       parts.  So you can fix the stuff you own quickly—and get on with your life.</p>
+
+       <p>But manufacturers like John Deere and Apple don't like that idea.  When your tractor breaks or
+       your cell phone stops working, they want to be the only people who can
+       fix it. And they get to set whatever prices they want for parts and
+       service.</p>
+
+       <p>It's time to fight for your right to repair and defend local repair
+       jobs—the corner mom-and-pop repair shops that keep getting squeezed
+       out.  Find out who represents you in the North Carolina legislature.  Tell
+       them you support the <a href="https://legiscan.com/NC/text/H663/2017">Fair Repair Act, H. 663</a>.
+       Tell them that you believe repair should be fair, affordable, and
+       accessible.  Stand up for the right to repair in North Carolina.</p>
+
+       <div class="buttonContainer">
+          <a href="http://northcarolina.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="MOModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>Missouri,</h3>
+       <p>This year, the people of Missouri have a chance to guarantee their
+       right to repair their equipment—like tractors, farm equipment, digital
+       equipment, and even cell phones.</p>
+
+       <p>It's yours.  You own it.  You shouldn't have to beg the manufacturer
+       for permission to fix it when it breaks.  Missouri's <a href="http://www.house.mo.gov/Bill.aspx?bill=HB1178&year=2017&code=R">Fair Repair Act, HB1178,</a> is simple.
+       It requires manufacturers to provide owners and independent repair
+       businesses with fair access to service information and affordable replacement
+       parts.  So you can fix the stuff you own quickly—and get on with your life.</p>
+
+       <p>But manufacturers like John Deere and Apple don't like that idea.  When your tractor breaks or
+       your cell phone stops working, they want to be the only people who can
+       fix it. And they get to set whatever prices they want for parts and
+       service.</p>
+
+       <p>It's time to fight for your right to repair and defend local repair
+       jobs—the corner mom-and-pop repair shops that keep getting squeezed
+       out.  Find out who represents you in the Missouri legislature.  Tell
+       them you support the <a href="http://www.house.mo.gov/Bill.aspx?bill=HB1178&year=2017&code=R">Fair Repair Act, HB1178</a>.
+       Tell them that you believe repair should be fair, affordable, and
+       accessible.  Stand up for the right to repair in Missouri.</p>
+
+       <div class="buttonContainer">
+          <a href="http://missouri.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="NHModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>New Hampshire,</h3>
+       <p>This year, the people of New Hampshire have a chance to guarantee their
+       right to repair their equipment—like tractors, farm equipment, digital
+       equipment, and even cell phones.</p>
+
+       <p>It's yours.  You own it.  You shouldn't have to beg the manufacturer
+       for permission to fix it when it breaks.  New Hampshire's upcoming Right to Repair Act is simple.
+       It requires manufacturers to provide owners and independent repair
+       businesses with fair access to service information and affordable replacement
+       parts.  So you can fix the stuff you own quickly—and get on with your life.</p>
+
+       <p>But manufacturers like John Deere and Apple don't like that idea.  When your tractor breaks or
+       your cell phone stops working, they want to be the only people who can
+       fix it. And they get to set whatever prices they want for parts and
+       service.</p>
+
+       <p>It's time to fight for your right to repair and defend local repair
+       jobs—the corner mom-and-pop repair shops that keep getting squeezed
+       out.  Find out who represents you in the New Hampshire legislature.  Tell
+       them you support the Right to Repair Act.
+       Tell them that you believe repair should be fair, affordable, and
+       accessible.  Stand up for the right to repair in New Hampshire.</p>
+
+       <div class="buttonContainer">
+          <a href="http://newhampshire.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+<div id="NJModalBox" class="rightToRepairBox" style="display:none">
+    <div class="modalContent">
+       <h2>It's time to speak out for your right to repair</h2>
+       <h3>New Jersey,</h3>
+       <p>This year, the people of New Jersey have a chance to guarantee their
+       right to repair their equipment—like tractors, farm equipment, digital
+       equipment, and even cell phones.</p>
+
+       <p>It's yours.  You own it.  You shouldn't have to beg the manufacturer
+       for permission to fix it when it breaks.  New Jersey's upcoming <a href="http://www.njleg.state.nj.us/2016/Bills/A5000/4934_I1.HTM">Fair Repair Act, A4934</a> is simple.
+       It requires manufacturers to provide owners and independent repair
+       businesses with fair access to service information and affordable replacement
+       parts.  So you can fix the stuff you own quickly—and get on with your life.</p>
+
+       <p>But manufacturers like John Deere and Apple don't like that idea.  When your tractor breaks or
+       your cell phone stops working, they want to be the only people who can
+       fix it. And they get to set whatever prices they want for parts and
+       service.</p>
+
+       <p>It's time to fight for your right to repair and defend local repair
+       jobs—the corner mom-and-pop repair shops that keep getting squeezed
+       out.  Find out who represents you in the New Jersey legislature.  Tell
+       them you support the <a href="http://www.njleg.state.nj.us/2016/Bills/A5000/4934_I1.HTM">Fair Repair Act, A4934</a>.
+       Tell them that you believe repair should be fair, affordable, and
+       accessible.  Stand up for the right to repair in New Jersey.</p>
+
+       <div class="buttonContainer">
+          <a href="http://newjersey.repair.org?utm_medium=organic&utm_source=ifixit#tellstory" class="button button-large" target="_blank">Take Action</a>
+       </div>
+    </div>
+</div>
+      
+               
+   <script>
+      (function(f,b,g){
+         var xo=g.prototype.open,xs=g.prototype.send,c;
+         f.hj=f.hj||function(){(f.hj.q=f.hj.q||[]).push(arguments)};
+         f._hjSettings={hjid:9559, hjsv:2};
+         function ls(){f.hj.documentHtml=b.documentElement.outerHTML;c=b.createElement("script");c.async=1;c.src="//static.hotjar.com/c/hotjar-9559.js?sv=2";b.getElementsByTagName("head")[0].appendChild(c);}
+         if(b.readyState==="interactive"||b.readyState==="complete"||b.readyState==="loaded"){ls();}else{if(b.addEventListener){b.addEventListener("DOMContentLoaded",ls,false);}}
+         if(!f._hjPlayback && b.addEventListener){
+            g.prototype.open=function(l,j,m,h,k){this._u=j;xo.call(this,l,j,m,h,k)};
+            g.prototype.send=function(e){var j=this;function h(){if(j.readyState===4){f.hj("_xhr",j._u,j.status,j.response)}}this.addEventListener("readystatechange",h,false);xs.call(this,e)};
+         }
+      })(window,document,window.XMLHttpRequest);
+   </script>
+
+                  <script type="text/javascript">
+   window.addEventListener('load', function() {
+     hj('trigger', 'new-guide-view-preview-poll');
+   });
+</script>
+         
+         
+                           
+               
+<!-- Google Code for Remarketing Tag -->
+<!-- Remarketing tags may not be associated with personally identifiable
+     information or placed on pages related to sensitive categories.
+     See more information and instructions on how to setup the tag on:
+     http://google.com/ads/remarketingsetup -->
+<!-- Docs @ https://support.google.com/adwords/answer/3103357 -->
+
+
+<script type="text/javascript">
+   /* <![CDATA[ */
+      var google_conversion_id = 1071763838;
+      var google_custom_params = window.google_tag_params;
+      var google_remarketing_only = true;
+   /* ]]> */
+</script>
+<script type="text/javascript"
+ src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+   <div style="display:inline;">
+      <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1071763838/?value=0&amp;guid=ON&amp;script=0"/>
+   </div>
+</noscript>
+               <img src="https://ping.dozuki.com/pixel.gif?key=ifixit%2Fguide%2F94863%2Fen" alt="" class="hidden" />
+   </body>
+</html>

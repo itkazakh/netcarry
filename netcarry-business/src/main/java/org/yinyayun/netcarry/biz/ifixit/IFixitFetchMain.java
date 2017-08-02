@@ -32,8 +32,10 @@ public class IFixitFetchMain {
         NextPageParserA[] nextPageParser = {new IFixitAllCategoryURLParser(deepPerPage),
                 new IFixitCategoryUrlParser(deepPerPage), new IFixitGuideUrlParser(deepPerPage)};
         NetCarryConfig config = new NetCarryConfig();
-        config.setFetchThreadNumber(1);
+        config.setTobeCarryQueueSize(5000);
+        config.setFetchThreadNumber(5);
         config.setSleepTime(1000);
+        config.setTimeOut(10000);
         new PageFetchExecutor<GuideContent>().executor(logPath, carryurls, config, parser, nextPageParser, collector);
 
     }

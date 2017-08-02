@@ -12,6 +12,8 @@ import java.util.List;
  * @author yinyayun
  */
 public class GuideContent {
+    // 更换配件指南0,拆机指南：1
+    private int type;
     // 教程的标题
     private String title;
     // 教程描述
@@ -21,6 +23,10 @@ public class GuideContent {
     private List<ToolEntity> tools = new ArrayList<ToolEntity>();
     // 教程步骤
     private List<StepInfo> steps = new ArrayList<GuideContent.StepInfo>();
+
+    public GuideContent(int type) {
+        this.type = type;
+    }
 
     public void setTitle(String title) {
         this.title = title;
@@ -68,6 +74,10 @@ public class GuideContent {
 
     public String getDes() {
         return des;
+    }
+
+    public int getType() {
+        return type;
     }
     //
     /**
