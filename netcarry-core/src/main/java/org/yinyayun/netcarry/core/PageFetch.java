@@ -129,30 +129,41 @@ public class PageFetch<T> implements Closeable {
     private void fetch() {
         // 防止重复抓取
         while (true) {
-            try {
-                // TODO allen 因生产和消费在一个线程，并且生产的URL要多余消费的URL，所以会导致阻塞队列满了之后的阻塞
-                PageMetas pageMetas = takeURL();
-                String url = pageMetas.getCurrentUrl();
-                Connection conn = createConnection(url);
-                Document document = conn.get();
-                // Document document = Jsoup.parse(new URL(url), 3000);
-                if (parser.needParser(url))
-                    parser.fetchPaser(pageMetas, document);
-                // 解析下一页
-                if (nextPageParsers == null) {
-                    continue;
-                }
-                for (NextPageParserA nextPageParser : nextPageParsers) {
-                    if (nextPageParser.needParserThisPage(url)) {
-                        List<PageMetas> nextPages = nextPageParser.nextPage(pageMetas, document);
-                        if (nextPages != null && nextPages.size() > 0) {
-                            nextPages.forEach(x -> addURL(x));
+            // TODO allen 因生产和消费在一个线程，并且生产的URL要多余消费的URL，所以会导致阻塞队列满了之后的阻塞
+            PageMetas pageMetas = takeURL();
+            String url = pageMetas.getCurrentUrl();
+            Connection conn = createConnection(url);
+            for (int i = 0; i < config.getRetryTimes(); i++) {
+                try {
+                    Document document = conn.get();
+                    // Document document = Jsoup.parse(new URL(url), 3000);
+                    if (parser.needParser(url))
+                        parser.fetchPaser(pageMetas, document);
+                    // 解析下一页
+                    if (nextPageParsers == null) {
+                        continue;
+                    }
+                    for (NextPageParserA nextPageParser : nextPageParsers) {
+                        if (nextPageParser.needParserThisPage(url)) {
+                            List<PageMetas> nextPages = nextPageParser.nextPage(pageMetas, document);
+                            if (nextPages != null && nextPages.size() > 0) {
+                                nextPages.forEach(x -> addURL(x));
+                            }
                         }
                     }
+                    // 成功后则退出
+                    break;
                 }
-            }
-            catch (Exception e) {
-                logger.error(e.getMessage(), e);
+                catch (Exception e) {
+                    if (i == (config.getRetryTimes() - 1)) {
+                        logger.error(e.getMessage(), e);
+                        // 重新加入队列
+                        addURL(pageMetas);
+                    }
+                    else {
+                        sleep(3000);
+                    }
+                }
             }
         }
     }
@@ -166,6 +177,8 @@ public class PageFetch<T> implements Closeable {
     private Connection createConnection(String url) {
         // Connection conn = Jsoup.connect(url);
         Connection conn = HttpConnection.connect(url);
+        //
+        conn.ignoreContentType(config.isIgnoreContentType());
         // agent设置
         String agent = config.getAgent();
         if (agent != null && agent.length() > 0) {

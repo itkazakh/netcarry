@@ -18,6 +18,8 @@ public class NetCarryConfig {
     private int fetchThreadNumber = 1;
     // 每次抓完后的休眠时间
     private int sleepTime = 100;
+    private boolean ignoreContentType = false;
+    private int retryTimes = 3;
     // 待抓取队列大小设置
     private int tobeCarryQueueSize = 1000;
     private int timeOut = 3000;
@@ -116,4 +118,19 @@ public class NetCarryConfig {
         this.tobeCarryQueueSize = tobeCarryQueueSize;
     }
 
+    public boolean isIgnoreContentType() {
+        return ignoreContentType;
+    }
+
+    public void setIgnoreContentType(boolean ignoreContentType) {
+        this.ignoreContentType = ignoreContentType;
+    }
+
+    public int getRetryTimes() {
+        return retryTimes;
+    }
+
+    public void setRetryTimes(int retryTimes) {
+        this.retryTimes = retryTimes;
+    }
 }
